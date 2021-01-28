@@ -17,9 +17,11 @@
 // @grant        GM.info
 // ==/UserScript==
 
-
-if(document.getElementById('paywall-upsell-button-upgrade')) {
+let btn = document.getElementById('paywall-upsell-button-upgrade');
+if(btn) {
   let url = 'https://radiant-brushlands-42789.herokuapp.com/' + document.URL.replace(/^https?\:\/\//i, "");
+  btn.childNodes[0].href = 'https://radiant-brushlands-42789.herokuapp.com/' + document.URL.replace(/^https?\:\/\//i, "")
+  btn.childNodes[0].text = 'Full'
   console.log('Redirect to ' + url);
   document.location.href = url
 }
