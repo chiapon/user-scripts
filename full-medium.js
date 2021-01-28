@@ -18,10 +18,22 @@
 // ==/UserScript==
 
 let btn = document.getElementById('paywall-upsell-button-upgrade');
+let url = 'https://radiant-brushlands-42789.herokuapp.com/' + document.URL.replace(/^https?\:\/\//i, "");
+let herokuapp = 'https://radiant-brushlands-42789.herokuapp.com/';
 if(btn) {
-  let url = 'https://radiant-brushlands-42789.herokuapp.com/' + document.URL.replace(/^https?\:\/\//i, "");
-  btn.childNodes[0].href = 'https://radiant-brushlands-42789.herokuapp.com/' + document.URL.replace(/^https?\:\/\//i, "")
+  btn.childNodes[0].href = herokuapp + document.URL.replace(/^https?\:\/\//i, "");
   btn.childNodes[0].text = 'Full'
   console.log('Redirect to ' + url);
-  document.location.href = url
+  document.location.href = url;
+}
+
+a = document.getElementsByTagName("a");
+for(i=0; i<a.length; i++) {
+  if(a[i].innerText==="Open in app") {
+    console.log(a[i]);
+    a[i].href = herokuapp + document.URL.replace(/^https?\:\/\//i, "");
+    a[i].innerText = 'Full';
+    document.location.href = url;
+    break;  
+  }
 }
