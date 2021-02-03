@@ -22,9 +22,9 @@ let herokuapp = 'https://radiant-brushlands-42789.herokuapp.com/';
 let url = herokuapp + document.URL.replace(/^https?\:\/\//i, "");
 if(btn) {
   btn.childNodes[0].href = url;
-  btn.childNodes[0].text = 'Full'
-  console.log('Redirect to ' + url);
-  document.location.href = url;
+  btn.childNodes[0].text = 'Full story'
+//   console.log('Redirect to ' + url);
+//   document.location.href = url;
 }
 
 a = document.getElementsByTagName("a");
@@ -32,8 +32,8 @@ for(i=0; i<a.length; i++) {
   if(a[i].innerText==="Open in app") {
     console.log(a[i]);
     a[i].href = url;
-    a[i].innerText = 'Full';
-    document.location.href = url;
+    a[i].innerText = 'Full story';
+//     document.location.href = url;
     break;  
   }
 }
