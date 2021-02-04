@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Medium Hackd
-// @version      1.00.08
+// @version      1.00.09
 // @downloadURL  https://github.com/chiapon/user-scripts/raw/main/full-medium.js
 // @updateURL    https://github.com/chiapon/user-scripts/raw/main/full-medium.js
 // @description  Unlock Medium article limitation by leveraging Medium Hackd server https://radiant-brushlands-42789.herokuapp.com/
 // @author       Alex Lin
+// @include      https://medium.com/*
 // @include      https://*.medium.com/*
 // @include      https://towardsdatascience.com/*
 // @grant        GM_getValue
@@ -17,14 +18,14 @@
 // @grant        GM.info
 // ==/UserScript==
 
-let btn = document.getElementById('paywall-upsell-button-upgrade');
-let herokuapp = 'https://radiant-brushlands-42789.herokuapp.com/';
-let url = herokuapp + document.URL.replace(/^https?\:\/\//i, "");
+
+var herokuapp = 'https://radiant-brushlands-42789.herokuapp.com/';
+var url = herokuapp + document.URL.replace(/^https?\:\/\//i, "");
+
+btn = document.getElementById('paywall-upsell-button-upgrade');
 if(btn) {
   btn.childNodes[0].href = url;
   btn.childNodes[0].text = 'Full story'
-//   console.log('Redirect to ' + url);
-//   document.location.href = url;
 }
 
 a = document.getElementsByTagName("a");
@@ -33,7 +34,6 @@ for(i=0; i<a.length; i++) {
     console.log(a[i]);
     a[i].href = url;
     a[i].innerText = 'Full story';
-//     document.location.href = url;
     break;  
   }
 }
