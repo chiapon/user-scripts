@@ -8,6 +8,7 @@
 // @include      https://medium.com/*
 // @include      https://codeburst.io/*
 // @include      https://*.medium.com/*
+// @include      https://*.gitconnected.com/*
 // @include      https://towardsdatascience.com/*
 // @grant        GM_getValue
 // @grant        GM_setValue
@@ -32,14 +33,4 @@ btn = document.getElementById('paywall-upsell-button-upgrade');
 if(btn) {
   btn.childNodes[0].href = url;
   btn.childNodes[0].text = 'Full story';
-}
-
-a = document.getElementsByTagName("a");
-for(i=0; i<a.length; i++) {
-  if(a[i].innerText==="Open in app") {
-    console.log(a[i]);
-    a[i].href = url;
-    a[i].innerText = 'Full story';
-    break;  
-  }
 }
