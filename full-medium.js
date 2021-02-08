@@ -1,15 +1,15 @@
 // ==UserScript==
 // @name         Medium Hackd
-// @version      1.00.11
+// @version      1.00.12
 // @downloadURL  https://github.com/chiapon/user-scripts/raw/main/full-medium.js
 // @updateURL    https://github.com/chiapon/user-scripts/raw/main/full-medium.js
 // @description  Unlock Medium article limitation by leveraging Medium Hackd server https://radiant-brushlands-42789.herokuapp.com/
 // @author       Alex Lin
 // @include      https://medium.com/*
 // @include      https://codeburst.io/*
+// @include      https://towardsdatascience.com/*
 // @include      https://*.medium.com/*
 // @include      https://*.gitconnected.com/*
-// @include      https://towardsdatascience.com/*
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_xmlhttpRequest
