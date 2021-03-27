@@ -34,4 +34,5 @@ btn = document.getElementById('paywall-upsell-button-upgrade');
 if(btn) {
   btn.childNodes[0].href = url;
   btn.childNodes[0].text = 'Full story';
+  btn.childNodes[0].style.fontSize = "large"
 }
