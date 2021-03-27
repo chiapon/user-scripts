@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Medium Hackd
-// @version      1.00.13
+// @version      1.00.14
 // @downloadURL  https://github.com/chiapon/user-scripts/raw/main/full-medium.js
 // @updateURL    https://github.com/chiapon/user-scripts/raw/main/full-medium.js
 // @description  Unlock Medium article limitation by leveraging Medium Hackd server https://radiant-brushlands-42789.herokuapp.com/
@@ -34,5 +34,5 @@ btn = document.getElementById('paywall-upsell-button-upgrade');
 if(btn) {
   btn.childNodes[0].href = url;
   btn.childNodes[0].text = 'Full story';
-  btn.childNodes[0].style.fontSize = "large"
+  btn.childNodes[0].style.fontSize = "x-large"
 }
