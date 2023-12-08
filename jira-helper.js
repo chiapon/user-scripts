@@ -2,6 +2,8 @@
 // @name        Jira Issue Links
 // @namespace   AlexCoding4Fun
 // @match       https://kkvideo.atlassian.net/issues/*
+// @downloadURL https://raw.githubusercontent.com/chiapon/user-scripts/main/jira-helper.js
+// @updateURL   https://raw.githubusercontent.com/chiapon/user-scripts/main/jira-helper.js
 // @grant       none
 // @version     1.0
 // @author      Alex Lin
