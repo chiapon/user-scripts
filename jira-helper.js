@@ -5,14 +5,14 @@
 // @downloadURL https://raw.githubusercontent.com/chiapon/user-scripts/main/jira-helper.js
 // @updateURL   https://raw.githubusercontent.com/chiapon/user-scripts/main/jira-helper.js
 // @grant       none
-// @version     1.0
+// @version     1.01
 // @author      Alex Lin
 // @description 12/8/2023, 10:46:25 PM
 // ==/UserScript==
 
 
 function onclick() {
-  myregex = /<a class="issue-link" data-issue-key="ST-\d+" href="(\/browse\/ST-\d+)" original-title="">ST-\d+<\/a>/g
+  myregex = /<a class="issue-link" data-issue-key="ST-\d+" href="(\/browse\/ST-\d+)" original-title="".*>ST-\d+<\/a>/g
   matches = document.getElementById("issuetable").outerHTML.matchAll(myregex);
   data = '';
   for (const match of matches) {
