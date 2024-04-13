@@ -5,15 +5,15 @@
 // @downloadURL https://raw.githubusercontent.com/chiapon/user-scripts/main/jira-helper.js
 // @updateURL   https://raw.githubusercontent.com/chiapon/user-scripts/main/jira-helper.js
 // @grant       none
-// @version     1.01
+// @version     1.02
 // @author      Alex Lin
 // @description 12/8/2023, 10:46:25 PM
 // ==/UserScript==
 
 
 function onclick() {
-  myregex = /<a class="issue-link" data-issue-key="ST-\d+" href="(\/browse\/ST-\d+)" original-title="".*>ST-\d+<\/a>/g
-  matches = document.getElementById("issuetable").outerHTML.matchAll(myregex);
+  myregex = /<a data-component-selector="jira-native-issue-table-issue-key" class="[_\d\w]+" href="(\/browse\/\w+-\d+)" target="_self">(\w+-\d+)<\/a>/g
+  matches = document.getElementsByTagName("tbody")[0].outerHTML.matchAll(myregex);
   data = '';
   for (const match of matches) {
       url = 'https://kkvideo.atlassian.net' + match[1].toString()
@@ -27,7 +27,7 @@ setInterval(() => {
   btn = document.getElementById('btn_all_issue_links');
   if(!btn) {
     const iterator = document.evaluate(
-      '//*[@id="global-issue-navigator-container"]/div[2]/div/div/div/div/div/div/div[1]/div[2]',
+      '//*[@id="ak-main-content"]/div/div[3]',
       document,
       null,
       XPathResult.UNORDERED_NODE_ITERATOR_TYPE,
