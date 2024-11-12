@@ -4,11 +4,15 @@
 // @version      1.0.0
 // @description  A lazy script to auto load TradingView layout data
 // @author       Alex Lin
-// @match        https://histock.tw/stock/tv/tvchart.aspx
+// @match        https://histock.tw/stock/tv/*
 // @downloadURL  https://raw.githubusercontent.com/chiapon/user-scripts/refs/heads/main/autoload-layout-stock.js
 // @updateURL    https://raw.githubusercontent.com/chiapon/user-scripts/refs/heads/main/autoload-layout-stock.js
 // @grant        none
 // ==/UserScript==
+
+let url = new URL(window.location.href);
+let params = url.searchParams;
+let symbol = params.get("no");
 
 const layoutData = {
     "layout": "s",
@@ -270,7 +274,7 @@ const layoutData = {
                                         }
                                     }
                                 },
-                                "symbol": "0000",
+                                "symbol": symbol,
                                 "shortName": "加權指數(0000)",
                                 "timeframe": "",
                                 "onWidget": false,
