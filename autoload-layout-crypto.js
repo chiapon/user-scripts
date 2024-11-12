@@ -5,6 +5,7 @@
 // @description  A lazy script to auto load TradingView layout data
 // @author       Alex Lin
 // @match        https://trading-terminal.tradingview-widget.com/
+// @downloadURL  https://raw.githubusercontent.com/chiapon/user-scripts/refs/heads/main/autoload-layout-crypto.js
 // @updateURL    https://raw.githubusercontent.com/chiapon/user-scripts/refs/heads/main/autoload-layout-crypto.js
 // @grant        none
 // ==/UserScript==
