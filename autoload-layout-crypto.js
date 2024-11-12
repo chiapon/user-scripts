@@ -10,8 +10,10 @@
 // @grant        none
 // ==/UserScript==
 
-const layoutData = {
-    "name": "sol",
+const layoutData = // load layout data in dev tool console
+
+layoutData = {
+    "name": "alex crypto",
     "layout": "s",
     "charts": [
         {
@@ -2187,314 +2189,10 @@ const layoutData = {
                                 "productId": "tv-basicstudies",
                                 "_serverMetaInfoVersion": 52
                             }
-                        },
-                        {
-                            "type": "LineToolFibRetracement",
-                            "id": "ziCLAK",
-                            "state": {
-                                "showCoeffs": true,
-                                "showPrices": true,
-                                "fillBackground": true,
-                                "transparency": 80,
-                                "extendLines": true,
-                                "extendLinesLeft": false,
-                                "horzLabelsAlign": "right",
-                                "vertLabelsAlign": "bottom",
-                                "showText": true,
-                                "horzTextAlign": "center",
-                                "vertTextAlign": "middle",
-                                "reverse": false,
-                                "coeffsAsPercents": false,
-                                "fibLevelsBasedOnLogScale": false,
-                                "labelFontSize": 10,
-                                "trendline": {
-                                    "visible": true,
-                                    "color": "#787B86",
-                                    "linewidth": 1,
-                                    "linestyle": 2
-                                },
-                                "levelsStyle": {
-                                    "linewidth": 1,
-                                    "linestyle": 0
-                                },
-                                "level1": [
-                                    0,
-                                    "#787B86",
-                                    false,
-                                    ""
-                                ],
-                                "level2": [
-                                    0.236,
-                                    "#F23645",
-                                    false,
-                                    ""
-                                ],
-                                "level3": [
-                                    0.382,
-                                    "#FF9800",
-                                    false,
-                                    ""
-                                ],
-                                "level4": [
-                                    0.5,
-                                    "#4caf50",
-                                    false,
-                                    ""
-                                ],
-                                "level5": [
-                                    0.618,
-                                    "#089981",
-                                    true,
-                                    ""
-                                ],
-                                "level6": [
-                                    0.786,
-                                    "#00bcd4",
-                                    false,
-                                    ""
-                                ],
-                                "level7": [
-                                    1,
-                                    "#787B86",
-                                    false,
-                                    ""
-                                ],
-                                "level8": [
-                                    1.618,
-                                    "#2962FF",
-                                    false,
-                                    ""
-                                ],
-                                "level9": [
-                                    2.618,
-                                    "#F23645",
-                                    false,
-                                    ""
-                                ],
-                                "level10": [
-                                    3.618,
-                                    "#9c27b0",
-                                    false,
-                                    ""
-                                ],
-                                "level11": [
-                                    4.236,
-                                    "#e91e63",
-                                    false,
-                                    ""
-                                ],
-                                "level12": [
-                                    1.272,
-                                    "#FF9800",
-                                    false,
-                                    ""
-                                ],
-                                "level13": [
-                                    1.414,
-                                    "#F23645",
-                                    false,
-                                    ""
-                                ],
-                                "level16": [
-                                    2,
-                                    "#089981",
-                                    false,
-                                    ""
-                                ],
-                                "level14": [
-                                    2.272,
-                                    "#FF9800",
-                                    false,
-                                    ""
-                                ],
-                                "level15": [
-                                    2.414,
-                                    "#4caf50",
-                                    false,
-                                    ""
-                                ],
-                                "level17": [
-                                    3,
-                                    "#00bcd4",
-                                    false,
-                                    ""
-                                ],
-                                "level18": [
-                                    3.272,
-                                    "#787B86",
-                                    false,
-                                    ""
-                                ],
-                                "level19": [
-                                    3.414,
-                                    "#2962FF",
-                                    false,
-                                    ""
-                                ],
-                                "level20": [
-                                    4,
-                                    "#F23645",
-                                    false,
-                                    ""
-                                ],
-                                "level21": [
-                                    4.272,
-                                    "#9c27b0",
-                                    false,
-                                    ""
-                                ],
-                                "level22": [
-                                    4.414,
-                                    "#e91e63",
-                                    false,
-                                    ""
-                                ],
-                                "level23": [
-                                    4.618,
-                                    "#FF9800",
-                                    false,
-                                    ""
-                                ],
-                                "level24": [
-                                    4.764,
-                                    "#089981",
-                                    false,
-                                    ""
-                                ],
-                                "symbolStateVersion": 2,
-                                "zOrderVersion": 2,
-                                "visible": true,
-                                "frozen": false,
-                                "symbol": "BINANCE:SOLUSDT",
-                                "currencyId": null,
-                                "unitId": null,
-                                "intervalsVisibilities": {
-                                    "ticks": true,
-                                    "seconds": true,
-                                    "secondsFrom": 1,
-                                    "secondsTo": 59,
-                                    "minutes": true,
-                                    "minutesFrom": 1,
-                                    "minutesTo": 59,
-                                    "hours": true,
-                                    "hoursFrom": 1,
-                                    "hoursTo": 24,
-                                    "days": true,
-                                    "daysFrom": 1,
-                                    "daysTo": 366,
-                                    "weeks": true,
-                                    "weeksFrom": 1,
-                                    "weeksTo": 52,
-                                    "months": true,
-                                    "monthsFrom": 1,
-                                    "monthsTo": 12,
-                                    "ranges": true
-                                },
-                                "title": "",
-                                "interval": "1D"
-                            },
-                            "points": [
-                                {
-                                    "time_t": 1730678400,
-                                    "offset": 0,
-                                    "price": 155.11
-                                },
-                                {
-                                    "time_t": 1731369600,
-                                    "offset": 0,
-                                    "price": 225.21
-                                }
-                            ],
-                            "zorder": -85000,
-                            "ownerSource": "_seriesId",
-                            "isSelectionEnabled": true,
-                            "userEditEnabled": true,
-                            "linkKey": "2UCP8E86ZWSG",
-                            "version": 2
-                        },
-                        {
-                            "type": "LineToolRay",
-                            "id": "lZoSuj",
-                            "state": {
-                                "linecolor": "rgba(255, 255, 255, 0.4968)",
-                                "linewidth": 4,
-                                "linestyle": 0,
-                                "extendLeft": false,
-                                "extendRight": true,
-                                "leftEnd": 0,
-                                "rightEnd": 0,
-                                "showLabel": false,
-                                "horzLabelsAlign": "center",
-                                "vertLabelsAlign": "bottom",
-                                "textcolor": "#2962FF",
-                                "fontsize": 14,
-                                "bold": false,
-                                "italic": false,
-                                "alwaysShowStats": false,
-                                "showMiddlePoint": false,
-                                "showPriceLabels": false,
-                                "showPriceRange": false,
-                                "showPercentPriceRange": false,
-                                "showPipsPriceRange": false,
-                                "showBarsRange": false,
-                                "showDateTimeRange": false,
-                                "showDistance": false,
-                                "showAngle": false,
-                                "statsPosition": 2,
-                                "symbolStateVersion": 2,
-                                "zOrderVersion": 2,
-                                "visible": true,
-                                "frozen": false,
-                                "symbol": "BINANCE:SOLUSDT",
-                                "currencyId": null,
-                                "unitId": null,
-                                "title": "",
-                                "text": "",
-                                "intervalsVisibilities": {
-                                    "ticks": true,
-                                    "seconds": true,
-                                    "secondsFrom": 1,
-                                    "secondsTo": 59,
-                                    "minutes": true,
-                                    "minutesFrom": 1,
-                                    "minutesTo": 59,
-                                    "hours": true,
-                                    "hoursFrom": 1,
-                                    "hoursTo": 24,
-                                    "days": true,
-                                    "daysFrom": 1,
-                                    "daysTo": 366,
-                                    "weeks": true,
-                                    "weeksFrom": 1,
-                                    "weeksTo": 52,
-                                    "months": true,
-                                    "monthsFrom": 1,
-                                    "monthsTo": 12,
-                                    "ranges": true
-                                },
-                                "interval": "1D"
-                            },
-                            "points": [
-                                {
-                                    "time_t": 1724716800,
-                                    "offset": 0,
-                                    "price": 159.69
-                                },
-                                {
-                                    "time_t": 1727654400,
-                                    "offset": 0,
-                                    "price": 159.77
-                                }
-                            ],
-                            "zorder": -82500,
-                            "ownerSource": "_seriesId",
-                            "isSelectionEnabled": true,
-                            "userEditEnabled": true,
-                            "linkKey": "QetMTTzGxGah"
                         }
                     ],
                     "mainSourceId": "_seriesId",
-                    "stretchFactor": 2905.881168852954,
+                    "stretchFactor": 3131.446901125678,
                     "leftAxisesState": [],
                     "rightAxisesState": [
                         {
@@ -2524,9 +2222,7 @@ const layoutData = {
                                 "pZSNW1",
                                 "xrnwR5",
                                 "J4Ne2f",
-                                "sj6B9D",
-                                "ziCLAK",
-                                "lZoSuj"
+                                "sj6B9D"
                             ]
                         }
                     ],
@@ -3081,7 +2777,7 @@ const layoutData = {
                         }
                     ],
                     "mainSourceId": "Ks9EAs",
-                    "stretchFactor": 635.5822457811923,
+                    "stretchFactor": 678.8484516711251,
                     "leftAxisesState": [],
                     "rightAxisesState": [
                         {
@@ -3422,7 +3118,7 @@ const layoutData = {
                         }
                     ],
                     "mainSourceId": "2H5TZM",
-                    "stretchFactor": 458.5365853658536,
+                    "stretchFactor": 684.0058443613639,
                     "leftAxisesState": [],
                     "rightAxisesState": [
                         {
@@ -3452,10 +3148,376 @@ const layoutData = {
                     "overlayPriceScales": {},
                     "priceScaleRatio": null,
                     "isCollapsed": false
+                },
+                {
+                    "sources": [
+                        {
+                            "type": "Study",
+                            "id": "k18OM3",
+                            "state": {
+                                "inputs": {
+                                    "in_0": 30,
+                                    "in_1": "close"
+                                },
+                                "styles": {
+                                    "plot_0": {
+                                        "display": 15,
+                                        "linestyle": 0,
+                                        "linewidth": 1,
+                                        "plottype": 5,
+                                        "trackPrice": false,
+                                        "transparency": 0,
+                                        "color": "rgba(242, 54, 69, 0.5988)",
+                                        "title": "plot_0"
+                                    }
+                                },
+                                "bands": {
+                                    "0": {
+                                        "color": "#787B86",
+                                        "linestyle": 2,
+                                        "linewidth": 1,
+                                        "visible": true,
+                                        "value": 0
+                                    }
+                                },
+                                "graphics": {},
+                                "ohlcPlots": {},
+                                "palettes": {},
+                                "filledAreasStyle": {},
+                                "filledAreas": {},
+                                "visible": true,
+                                "showLegendValues": true,
+                                "showLabelsOnPriceScale": true,
+                                "precision": "default",
+                                "parentSources": {},
+                                "intervalsVisibilities": {
+                                    "ticks": true,
+                                    "seconds": true,
+                                    "secondsFrom": 1,
+                                    "secondsTo": 59,
+                                    "minutes": true,
+                                    "minutesFrom": 1,
+                                    "minutesTo": 59,
+                                    "hours": true,
+                                    "hoursFrom": 1,
+                                    "hoursTo": 24,
+                                    "days": true,
+                                    "daysFrom": 1,
+                                    "daysTo": 366,
+                                    "weeks": true,
+                                    "weeksFrom": 1,
+                                    "weeksTo": 52,
+                                    "months": true,
+                                    "monthsFrom": 1,
+                                    "monthsTo": 12,
+                                    "ranges": true
+                                }
+                            },
+                            "zorder": -10000,
+                            "ownFirstValue": null,
+                            "metaInfo": {
+                                "palettes": {},
+                                "inputs": [
+                                    {
+                                        "id": "in_0",
+                                        "name": "Length",
+                                        "defval": 10,
+                                        "type": "integer",
+                                        "min": 1,
+                                        "max": 2000,
+                                        "display": 15
+                                    },
+                                    {
+                                        "id": "in_1",
+                                        "name": "Source",
+                                        "defval": "close",
+                                        "type": "source",
+                                        "options": [
+                                            "open",
+                                            "high",
+                                            "low",
+                                            "close",
+                                            "hl2",
+                                            "hlc3",
+                                            "ohlc4"
+                                        ],
+                                        "display": 15
+                                    }
+                                ],
+                                "plots": [
+                                    {
+                                        "id": "plot_0",
+                                        "type": "line"
+                                    }
+                                ],
+                                "graphics": {},
+                                "defaults": {
+                                    "styles": {
+                                        "plot_0": {
+                                            "display": 15,
+                                            "linestyle": 0,
+                                            "linewidth": 1,
+                                            "plottype": 0,
+                                            "trackPrice": false,
+                                            "transparency": 0,
+                                            "color": "#2196F3"
+                                        }
+                                    },
+                                    "bands": [
+                                        {
+                                            "color": "#787B86",
+                                            "linestyle": 2,
+                                            "linewidth": 1,
+                                            "visible": true,
+                                            "value": 0
+                                        }
+                                    ],
+                                    "inputs": {
+                                        "in_0": 10,
+                                        "in_1": "close"
+                                    }
+                                },
+                                "_metainfoVersion": 53,
+                                "isTVScript": false,
+                                "isTVScriptStub": false,
+                                "is_hidden_study": false,
+                                "styles": {
+                                    "plot_0": {
+                                        "title": "Mom",
+                                        "histogramBase": 0,
+                                        "joinPoints": false,
+                                        "isHidden": false,
+                                        "zorder": 0
+                                    }
+                                },
+                                "description": "Momentum",
+                                "shortDescription": "Mom",
+                                "is_price_study": false,
+                                "bands": [
+                                    {
+                                        "id": "hline_0",
+                                        "name": "Zero",
+                                        "zorder": -1
+                                    }
+                                ],
+                                "id": "Momentum@tv-basicstudies-1",
+                                "scriptIdPart": "",
+                                "name": "Momentum",
+                                "format": {
+                                    "type": "inherit"
+                                },
+                                "usePlotsZOrder": true,
+                                "description_localized": "Momentum",
+                                "shortId": "Momentum",
+                                "packageId": "tv-basicstudies",
+                                "version": 1,
+                                "fullId": "Momentum@tv-basicstudies-1",
+                                "productId": "tv-basicstudies",
+                                "_serverMetaInfoVersion": 52
+                            }
+                        },
+                        {
+                            "type": "Study",
+                            "id": "YVFb5P",
+                            "state": {
+                                "inputs": {
+                                    "in_0": 120,
+                                    "in_1": "close"
+                                },
+                                "styles": {
+                                    "plot_0": {
+                                        "display": 15,
+                                        "linestyle": 0,
+                                        "linewidth": 1,
+                                        "plottype": 5,
+                                        "trackPrice": false,
+                                        "transparency": 0,
+                                        "color": "rgba(41, 98, 255, 0.5988)",
+                                        "title": "plot_0"
+                                    }
+                                },
+                                "bands": {
+                                    "0": {
+                                        "color": "#787B86",
+                                        "linestyle": 2,
+                                        "linewidth": 1,
+                                        "visible": true,
+                                        "value": 0
+                                    }
+                                },
+                                "graphics": {},
+                                "ohlcPlots": {},
+                                "palettes": {},
+                                "filledAreasStyle": {},
+                                "filledAreas": {},
+                                "visible": true,
+                                "showLegendValues": true,
+                                "showLabelsOnPriceScale": true,
+                                "precision": "default",
+                                "parentSources": {},
+                                "intervalsVisibilities": {
+                                    "ticks": true,
+                                    "seconds": true,
+                                    "secondsFrom": 1,
+                                    "secondsTo": 59,
+                                    "minutes": true,
+                                    "minutesFrom": 1,
+                                    "minutesTo": 59,
+                                    "hours": true,
+                                    "hoursFrom": 1,
+                                    "hoursTo": 24,
+                                    "days": true,
+                                    "daysFrom": 1,
+                                    "daysTo": 366,
+                                    "weeks": true,
+                                    "weeksFrom": 1,
+                                    "weeksTo": 52,
+                                    "months": true,
+                                    "monthsFrom": 1,
+                                    "monthsTo": 12,
+                                    "ranges": true
+                                }
+                            },
+                            "zorder": -20000,
+                            "ownFirstValue": null,
+                            "metaInfo": {
+                                "palettes": {},
+                                "inputs": [
+                                    {
+                                        "id": "in_0",
+                                        "name": "Length",
+                                        "defval": 10,
+                                        "type": "integer",
+                                        "min": 1,
+                                        "max": 2000,
+                                        "display": 15
+                                    },
+                                    {
+                                        "id": "in_1",
+                                        "name": "Source",
+                                        "defval": "close",
+                                        "type": "source",
+                                        "options": [
+                                            "open",
+                                            "high",
+                                            "low",
+                                            "close",
+                                            "hl2",
+                                            "hlc3",
+                                            "ohlc4"
+                                        ],
+                                        "display": 15
+                                    }
+                                ],
+                                "plots": [
+                                    {
+                                        "id": "plot_0",
+                                        "type": "line"
+                                    }
+                                ],
+                                "graphics": {},
+                                "defaults": {
+                                    "styles": {
+                                        "plot_0": {
+                                            "display": 15,
+                                            "linestyle": 0,
+                                            "linewidth": 1,
+                                            "plottype": 0,
+                                            "trackPrice": false,
+                                            "transparency": 0,
+                                            "color": "#2196F3"
+                                        }
+                                    },
+                                    "bands": [
+                                        {
+                                            "color": "#787B86",
+                                            "linestyle": 2,
+                                            "linewidth": 1,
+                                            "visible": true,
+                                            "value": 0
+                                        }
+                                    ],
+                                    "inputs": {
+                                        "in_0": 10,
+                                        "in_1": "close"
+                                    }
+                                },
+                                "_metainfoVersion": 53,
+                                "isTVScript": false,
+                                "isTVScriptStub": false,
+                                "is_hidden_study": false,
+                                "styles": {
+                                    "plot_0": {
+                                        "title": "Mom",
+                                        "histogramBase": 0,
+                                        "joinPoints": false,
+                                        "isHidden": false,
+                                        "zorder": 0
+                                    }
+                                },
+                                "description": "Momentum",
+                                "shortDescription": "Mom",
+                                "is_price_study": false,
+                                "bands": [
+                                    {
+                                        "id": "hline_0",
+                                        "name": "Zero",
+                                        "zorder": -1
+                                    }
+                                ],
+                                "id": "Momentum@tv-basicstudies-1",
+                                "scriptIdPart": "",
+                                "name": "Momentum",
+                                "format": {
+                                    "type": "inherit"
+                                },
+                                "usePlotsZOrder": true,
+                                "description_localized": "Momentum",
+                                "shortId": "Momentum",
+                                "packageId": "tv-basicstudies",
+                                "version": 1,
+                                "fullId": "Momentum@tv-basicstudies-1",
+                                "productId": "tv-basicstudies",
+                                "_serverMetaInfoVersion": 52
+                            }
+                        }
+                    ],
+                    "mainSourceId": "k18OM3",
+                    "stretchFactor": 505.69880284183284,
+                    "leftAxisesState": [],
+                    "rightAxisesState": [
+                        {
+                            "state": {
+                                "id": "02BBvEz4PWTl",
+                                "m_priceRange": null,
+                                "m_isAutoScale": true,
+                                "m_isPercentage": false,
+                                "m_isIndexedTo100": false,
+                                "m_isLog": false,
+                                "m_isLockScale": false,
+                                "m_isInverted": false,
+                                "m_topMargin": 0.1,
+                                "m_bottomMargin": 0.08,
+                                "alignLabels": true,
+                                "logFormula": {
+                                    "logicalOffset": 4,
+                                    "coordOffset": 0.0001
+                                },
+                                "hasCalculatedPriceRange": true
+                            },
+                            "sources": [
+                                "k18OM3",
+                                "YVFb5P"
+                            ]
+                        }
+                    ],
+                    "overlayPriceScales": {},
+                    "priceScaleRatio": null,
+                    "isCollapsed": false
                 }
             ],
             "timeScale": {
-                "m_barSpacing": 6,
+                "m_barSpacing": 7.1874,
                 "m_rightOffset": 10,
                 "rightOffsetPercentage": 5,
                 "usePercentageRightOffset": false
