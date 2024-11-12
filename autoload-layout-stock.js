@@ -15,6 +15,7 @@ let params = url.searchParams;
 let symbol = params.get("no");
 
 const layoutData = {
+    "name": "2328",
     "layout": "s",
     "charts": [
         {
@@ -275,7 +276,7 @@ const layoutData = {
                                     }
                                 },
                                 "symbol": symbol,
-                                "shortName": "加權指數(0000)",
+                                "shortName": "廣宇(2328)",
                                 "timeframe": "",
                                 "onWidget": false,
                                 "interval": "D",
@@ -528,9 +529,7 @@ const layoutData = {
                                 "name": "Volume@tv-basicstudies",
                                 "format": {
                                     "type": "volume"
-                                },
-                                "matchPriority": 2,
-                                "matchIndex": 4
+                                }
                             }
                         },
                         {
@@ -763,9 +762,7 @@ const layoutData = {
                                 "format": {
                                     "type": "price",
                                     "precision": 4
-                                },
-                                "matchPriority": 2,
-                                "matchIndex": 0
+                                }
                             }
                         },
                         {
@@ -981,9 +978,7 @@ const layoutData = {
                                 "format": {
                                     "type": "price",
                                     "precision": 4
-                                },
-                                "matchPriority": 3,
-                                "matchIndex": 0
+                                }
                             }
                         },
                         {
@@ -1133,9 +1128,7 @@ const layoutData = {
                                 "format": {
                                     "type": "price",
                                     "precision": 4
-                                },
-                                "matchPriority": 3,
-                                "matchIndex": 0
+                                }
                             }
                         },
                         {
@@ -1285,9 +1278,7 @@ const layoutData = {
                                 "format": {
                                     "type": "price",
                                     "precision": 4
-                                },
-                                "matchPriority": 3,
-                                "matchIndex": 0
+                                }
                             }
                         },
                         {
@@ -1437,9 +1428,7 @@ const layoutData = {
                                 "format": {
                                     "type": "price",
                                     "precision": 4
-                                },
-                                "matchPriority": 3,
-                                "matchIndex": 0
+                                }
                             }
                         },
                         {
@@ -1495,163 +1484,6 @@ const layoutData = {
                             "zorder": 1,
                             "linkKey": "7uX2JIA9cYU1",
                             "ownerSource": "J2MJNl"
-                        },
-                        {
-                            "type": "study_ScriptWithDataOffset",
-                            "id": "txVFLZ",
-                            "state": {
-                                "styles": {
-                                    "plot_0": {
-                                        "linestyle": 0,
-                                        "linewidth": 2,
-                                        "plottype": 0,
-                                        "trackPrice": false,
-                                        "transparency": 35,
-                                        "visible": true,
-                                        "color": "rgba(156, 39, 176, 0.6497)",
-                                        "histogramBase": 0,
-                                        "joinPoints": false,
-                                        "title": "Plot"
-                                    },
-                                    "plot_1": {
-                                        "visible": true,
-                                        "color": "#0496ff",
-                                        "linestyle": 0,
-                                        "linewidth": 2,
-                                        "plottype": "dataoffset",
-                                        "histogramBase": 0,
-                                        "transparency": 50,
-                                        "trackPrice": false,
-                                        "joinPoints": false,
-                                        "title": "plot_1"
-                                    }
-                                },
-                                "precision": "default",
-                                "inputs": {
-                                    "in_0": 5,
-                                    "in_1": 10
-                                },
-                                "color": "rgba( 86, 135, 29, 1)",
-                                "linewidth": 2,
-                                "palettes": {},
-                                "bands": {},
-                                "area": {},
-                                "graphics": {},
-                                "showInDataWindow": true,
-                                "visible": false,
-                                "showStudyArguments": true,
-                                "plots": {
-                                    "0": {
-                                        "id": "plot_0",
-                                        "type": "line"
-                                    },
-                                    "1": {
-                                        "id": "plot_1",
-                                        "target": "plot_0",
-                                        "type": "dataoffset"
-                                    }
-                                },
-                                "_metainfoVersion": 47,
-                                "isTVScript": false,
-                                "isTVScriptStub": false,
-                                "is_hidden_study": false,
-                                "description": "Zig Zag",
-                                "shortDescription": "ZigZag",
-                                "is_price_study": true,
-                                "classId": "ScriptWithDataOffset",
-                                "id": "ZigZag@tv-basicstudies",
-                                "description_localized": "拋物線轉向",
-                                "shortId": "ZigZag",
-                                "packageId": "tv-basicstudies",
-                                "version": "1",
-                                "fullId": "ZigZag@tv-basicstudies-1",
-                                "productId": "tv-basicstudies",
-                                "name": "ZigZag@tv-basicstudies",
-                                "format": {
-                                    "type": "price",
-                                    "precision": 4
-                                },
-                                "matchPriority": 2,
-                                "matchIndex": 0
-                            },
-                            "zorder": -14,
-                            "metaInfo": {
-                                "palettes": {},
-                                "inputs": [
-                                    {
-                                        "id": "in_0",
-                                        "name": "deviation",
-                                        "defval": 5,
-                                        "type": "integer",
-                                        "min": 1,
-                                        "max": 100
-                                    },
-                                    {
-                                        "id": "in_1",
-                                        "name": "depth",
-                                        "defval": 10,
-                                        "type": "integer",
-                                        "min": 2,
-                                        "max": 1000
-                                    }
-                                ],
-                                "plots": [
-                                    {
-                                        "id": "plot_0",
-                                        "type": "line"
-                                    },
-                                    {
-                                        "id": "plot_1",
-                                        "target": "plot_0",
-                                        "type": "dataoffset"
-                                    }
-                                ],
-                                "graphics": {},
-                                "defaults": {
-                                    "styles": {
-                                        "plot_0": {
-                                            "linestyle": 0,
-                                            "linewidth": 2,
-                                            "plottype": 0,
-                                            "trackPrice": false,
-                                            "transparency": 35,
-                                            "visible": true,
-                                            "color": "#008000"
-                                        }
-                                    },
-                                    "inputs": {
-                                        "in_0": 5,
-                                        "in_1": 10
-                                    }
-                                },
-                                "_metainfoVersion": 47,
-                                "isTVScript": false,
-                                "isTVScriptStub": false,
-                                "is_hidden_study": false,
-                                "styles": {
-                                    "plot_0": {
-                                        "title": "Plot",
-                                        "histogramBase": 0,
-                                        "joinPoints": false
-                                    }
-                                },
-                                "description": "Zig Zag",
-                                "shortDescription": "ZigZag",
-                                "is_price_study": true,
-                                "classId": "ScriptWithDataOffset",
-                                "id": "ZigZag@tv-basicstudies-1",
-                                "description_localized": "拋物線轉向",
-                                "shortId": "ZigZag",
-                                "packageId": "tv-basicstudies",
-                                "version": "1",
-                                "fullId": "ZigZag@tv-basicstudies-1",
-                                "productId": "tv-basicstudies",
-                                "name": "ZigZag@tv-basicstudies",
-                                "format": {
-                                    "type": "price",
-                                    "precision": 4
-                                }
-                            }
                         }
                     ],
                     "leftAxisesState": [],
@@ -1660,8 +1492,8 @@ const layoutData = {
                             "state": {
                                 "id": "kxJByIz82S8i",
                                 "m_priceRange": {
-                                    "m_maxValue": 25224.088077151315,
-                                    "m_minValue": 19662.74
+                                    "m_maxValue": 42.45299498228814,
+                                    "m_minValue": 29.05
                                 },
                                 "m_isAutoScale": true,
                                 "m_isPercentage": false,
@@ -1669,7 +1501,7 @@ const layoutData = {
                                 "m_isLog": false,
                                 "m_isLockScale": false,
                                 "m_isInverted": false,
-                                "m_height": 512,
+                                "m_height": 565,
                                 "m_topMargin": 0.1,
                                 "m_bottomMargin": 0.1,
                                 "alignLabels": true
@@ -1682,8 +1514,7 @@ const layoutData = {
                                 "KSRDOj",
                                 "C0ry9l",
                                 "eC4HNJ",
-                                "XHLpUE",
-                                "txVFLZ"
+                                "XHLpUE"
                             ]
                         }
                     ],
@@ -1691,7 +1522,7 @@ const layoutData = {
                         "U1G4pH": {
                             "id": "YjTPHGHCzPeJ",
                             "m_priceRange": {
-                                "m_maxValue": 6421,
+                                "m_maxValue": 29756,
                                 "m_minValue": 0
                             },
                             "m_isAutoScale": true,
@@ -1700,7 +1531,7 @@ const layoutData = {
                             "m_isLog": false,
                             "m_isLockScale": false,
                             "m_isInverted": false,
-                            "m_height": 512,
+                            "m_height": 565,
                             "m_topMargin": 0.75,
                             "m_bottomMargin": 0,
                             "alignLabels": true
@@ -1851,9 +1682,7 @@ const layoutData = {
                                 "format": {
                                     "type": "price",
                                     "precision": 4
-                                },
-                                "matchPriority": 2,
-                                "matchIndex": 0
+                                }
                             }
                         },
                         {
@@ -1995,9 +1824,7 @@ const layoutData = {
                                 "format": {
                                     "type": "price",
                                     "precision": 4
-                                },
-                                "matchPriority": 2,
-                                "matchIndex": 0
+                                }
                             }
                         }
                     ],
@@ -2007,8 +1834,8 @@ const layoutData = {
                             "state": {
                                 "id": "iVyMPa1QA4gt",
                                 "m_priceRange": {
-                                    "m_maxValue": 6854.539999999997,
-                                    "m_minValue": -3575.2199999999975
+                                    "m_maxValue": 6.400000000000006,
+                                    "m_minValue": -9.049999999999997
                                 },
                                 "m_isAutoScale": true,
                                 "m_isPercentage": false,
@@ -2016,7 +1843,7 @@ const layoutData = {
                                 "m_isLog": false,
                                 "m_isLockScale": false,
                                 "m_isInverted": false,
-                                "m_height": 88,
+                                "m_height": 97,
                                 "m_topMargin": 0.1,
                                 "m_bottomMargin": 0.1,
                                 "alignLabels": true
@@ -2259,9 +2086,7 @@ const layoutData = {
                                 "format": {
                                     "type": "price",
                                     "precision": 4
-                                },
-                                "matchPriority": 2,
-                                "matchIndex": 0
+                                }
                             }
                         }
                     ],
@@ -2271,8 +2096,8 @@ const layoutData = {
                             "state": {
                                 "id": "6oWDtjVUaVhz",
                                 "m_priceRange": {
-                                    "m_maxValue": 571.4744116575021,
-                                    "m_minValue": -553.6193135242938
+                                    "m_maxValue": 1.1246128697120525,
+                                    "m_minValue": -1.744780797515638
                                 },
                                 "m_isAutoScale": true,
                                 "m_isPercentage": false,
@@ -2280,7 +2105,7 @@ const layoutData = {
                                 "m_isLog": false,
                                 "m_isLockScale": false,
                                 "m_isInverted": false,
-                                "m_height": 90,
+                                "m_height": 99,
                                 "m_topMargin": 0.1,
                                 "m_bottomMargin": 0.1,
                                 "alignLabels": true
@@ -2494,9 +2319,7 @@ const layoutData = {
                                 "format": {
                                     "type": "price",
                                     "precision": 4
-                                },
-                                "matchPriority": 2,
-                                "matchIndex": 0
+                                }
                             }
                         },
                         {
@@ -2760,8 +2583,8 @@ const layoutData = {
                             "state": {
                                 "id": "LqBxjvIcZ52K",
                                 "m_priceRange": {
-                                    "m_maxValue": 97.96958855326977,
-                                    "m_minValue": 6.577997343930608
+                                    "m_maxValue": 95.51332288401244,
+                                    "m_minValue": 5.423028982792476
                                 },
                                 "m_isAutoScale": true,
                                 "m_isPercentage": false,
@@ -2769,7 +2592,7 @@ const layoutData = {
                                 "m_isLog": false,
                                 "m_isLockScale": false,
                                 "m_isInverted": false,
-                                "m_height": 93,
+                                "m_height": 103,
                                 "m_topMargin": 0.1,
                                 "m_bottomMargin": 0.1,
                                 "alignLabels": true
@@ -2783,239 +2606,6 @@ const layoutData = {
                     "overlayPriceScales": {},
                     "stretchFactor": 645.084645084645,
                     "mainSourceId": "KYWQiE",
-                    "priceScaleRatio": null
-                },
-                {
-                    "sources": [
-                        {
-                            "type": "Study",
-                            "id": "UvmUyc",
-                            "state": {
-                                "styles": {
-                                    "plot_0": {
-                                        "linestyle": 0,
-                                        "linewidth": 1,
-                                        "plottype": 0,
-                                        "trackPrice": false,
-                                        "transparency": 35,
-                                        "visible": true,
-                                        "color": "rgba(244, 143, 177, 1)",
-                                        "histogramBase": 0,
-                                        "joinPoints": false,
-                                        "title": "Plot"
-                                    }
-                                },
-                                "bands": {
-                                    "0": {
-                                        "color": "#808080",
-                                        "linestyle": 2,
-                                        "linewidth": 1,
-                                        "visible": true,
-                                        "value": 100,
-                                        "id": "hline_0",
-                                        "name": "UpperLimit"
-                                    },
-                                    "1": {
-                                        "color": "#808080",
-                                        "linestyle": 2,
-                                        "linewidth": 1,
-                                        "visible": true,
-                                        "value": -100,
-                                        "id": "hline_1",
-                                        "name": "LowerLimit"
-                                    }
-                                },
-                                "filledAreasStyle": {
-                                    "fill_0": {
-                                        "color": "#808000",
-                                        "transparency": 90,
-                                        "visible": true
-                                    }
-                                },
-                                "precision": "default",
-                                "inputs": {
-                                    "in_0": 14
-                                },
-                                "palettes": {},
-                                "area": {},
-                                "graphics": {},
-                                "showInDataWindow": true,
-                                "visible": true,
-                                "showStudyArguments": true,
-                                "plots": {
-                                    "0": {
-                                        "id": "plot_0",
-                                        "type": "line"
-                                    }
-                                },
-                                "_metainfoVersion": 47,
-                                "isTVScript": false,
-                                "isTVScriptStub": false,
-                                "is_hidden_study": false,
-                                "description": "Commodity Channel Index",
-                                "shortDescription": "CCI",
-                                "is_price_study": false,
-                                "filledAreas": {
-                                    "0": {
-                                        "id": "fill_0",
-                                        "objAId": "hline_0",
-                                        "objBId": "hline_1",
-                                        "type": "hline_hline",
-                                        "title": "Hlines Background"
-                                    }
-                                },
-                                "id": "Commodity Channel Index@tv-basicstudies",
-                                "scriptIdPart": "",
-                                "name": "Commodity Channel Index@tv-basicstudies",
-                                "description_localized": "順勢指標",
-                                "shortId": "Commodity Channel Index",
-                                "packageId": "tv-basicstudies",
-                                "version": "1",
-                                "fullId": "Commodity Channel Index@tv-basicstudies-1",
-                                "productId": "tv-basicstudies",
-                                "format": {
-                                    "type": "price",
-                                    "precision": 4
-                                },
-                                "matchPriority": 2,
-                                "matchIndex": 0
-                            },
-                            "zorder": -1,
-                            "metaInfo": {
-                                "palettes": {},
-                                "inputs": [
-                                    {
-                                        "id": "in_0",
-                                        "name": "length",
-                                        "defval": 20,
-                                        "type": "integer",
-                                        "min": 1,
-                                        "max": 2000
-                                    }
-                                ],
-                                "plots": [
-                                    {
-                                        "id": "plot_0",
-                                        "type": "line"
-                                    }
-                                ],
-                                "graphics": {},
-                                "defaults": {
-                                    "styles": {
-                                        "plot_0": {
-                                            "linestyle": 0,
-                                            "linewidth": 1,
-                                            "plottype": 0,
-                                            "trackPrice": false,
-                                            "transparency": 35,
-                                            "visible": true,
-                                            "color": "#808000"
-                                        }
-                                    },
-                                    "bands": [
-                                        {
-                                            "color": "#808080",
-                                            "linestyle": 2,
-                                            "linewidth": 1,
-                                            "visible": true,
-                                            "value": 100
-                                        },
-                                        {
-                                            "color": "#808080",
-                                            "linestyle": 2,
-                                            "linewidth": 1,
-                                            "visible": true,
-                                            "value": -100
-                                        }
-                                    ],
-                                    "filledAreasStyle": {
-                                        "fill_0": {
-                                            "color": "#808000",
-                                            "transparency": 90,
-                                            "visible": true
-                                        }
-                                    },
-                                    "inputs": {
-                                        "in_0": 20
-                                    }
-                                },
-                                "_metainfoVersion": 47,
-                                "isTVScript": false,
-                                "isTVScriptStub": false,
-                                "is_hidden_study": false,
-                                "styles": {
-                                    "plot_0": {
-                                        "title": "Plot",
-                                        "histogramBase": 0,
-                                        "joinPoints": false
-                                    }
-                                },
-                                "description": "Commodity Channel Index",
-                                "shortDescription": "CCI",
-                                "is_price_study": false,
-                                "bands": [
-                                    {
-                                        "id": "hline_0",
-                                        "name": "UpperLimit"
-                                    },
-                                    {
-                                        "id": "hline_1",
-                                        "name": "LowerLimit"
-                                    }
-                                ],
-                                "filledAreas": [
-                                    {
-                                        "id": "fill_0",
-                                        "objAId": "hline_0",
-                                        "objBId": "hline_1",
-                                        "type": "hline_hline",
-                                        "title": "Hlines Background"
-                                    }
-                                ],
-                                "id": "Commodity Channel Index@tv-basicstudies-1",
-                                "scriptIdPart": "",
-                                "name": "Commodity Channel Index@tv-basicstudies",
-                                "description_localized": "順勢指標",
-                                "shortId": "Commodity Channel Index",
-                                "packageId": "tv-basicstudies",
-                                "version": "1",
-                                "fullId": "Commodity Channel Index@tv-basicstudies-1",
-                                "productId": "tv-basicstudies",
-                                "format": {
-                                    "type": "price",
-                                    "precision": 4
-                                }
-                            }
-                        }
-                    ],
-                    "leftAxisesState": [],
-                    "rightAxisesState": [
-                        {
-                            "state": {
-                                "id": "iBbwhzkEMsS3",
-                                "m_priceRange": {
-                                    "m_maxValue": 182.59499292783073,
-                                    "m_minValue": -407.1309226951134
-                                },
-                                "m_isAutoScale": true,
-                                "m_isPercentage": false,
-                                "m_isIndexedTo100": false,
-                                "m_isLog": false,
-                                "m_isLockScale": false,
-                                "m_isInverted": false,
-                                "m_height": 80,
-                                "m_topMargin": 0.1,
-                                "m_bottomMargin": 0.1,
-                                "alignLabels": true
-                            },
-                            "sources": [
-                                "UvmUyc"
-                            ]
-                        }
-                    ],
-                    "overlayPriceScales": {},
-                    "stretchFactor": 554.054054054054,
-                    "mainSourceId": "UvmUyc",
                     "priceScaleRatio": null
                 }
             ],
@@ -3132,4 +2722,3 @@ window.onload = (function() {
     console.log(window.tvWidget);
     window.tvWidget.load(layoutData);
 });
-
