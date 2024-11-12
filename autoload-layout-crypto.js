@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Auto Load Layout Data (for Crypto)
 // @namespace    AlexCoding4Fun
-// @version      2024-11-12
+// @version      1.0.0
 // @description  A lazy script to auto load TradingView layout data
 // @author       Alex Lin
 // @match        https://trading-terminal.tradingview-widget.com/
+// @updateURL    https://raw.githubusercontent.com/chiapon/user-scripts/refs/heads/main/autoload-layout-crypto.js
 // @grant        none
 // ==/UserScript==
 
