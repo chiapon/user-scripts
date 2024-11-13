@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto Load Layout Data (for Stock)
 // @namespace    AlexCoding4Fun
-// @version      1.0.0
+// @version      1.0.1
 // @description  A lazy script to auto load TradingView layout data
 // @author       Alex Lin
 // @match        https://histock.tw/stock/tv/*
@@ -15,7 +15,6 @@ let params = url.searchParams;
 let symbol = params.get("no");
 
 const layoutData = {
-    "name": "2328",
     "layout": "s",
     "charts": [
         {
@@ -275,8 +274,8 @@ const layoutData = {
                                         }
                                     }
                                 },
-                                "symbol": symbol,
-                                "shortName": "廣宇(2328)",
+                                "symbol": "2603",
+                                "shortName": "長榮(2603)",
                                 "timeframe": "",
                                 "onWidget": false,
                                 "interval": "D",
@@ -1484,6 +1483,163 @@ const layoutData = {
                             "zorder": 1,
                             "linkKey": "7uX2JIA9cYU1",
                             "ownerSource": "J2MJNl"
+                        },
+                        {
+                            "type": "study_ScriptWithDataOffset",
+                            "id": "txVFLZ",
+                            "state": {
+                                "styles": {
+                                    "plot_0": {
+                                        "linestyle": 0,
+                                        "linewidth": 2,
+                                        "plottype": 0,
+                                        "trackPrice": false,
+                                        "transparency": 35,
+                                        "visible": true,
+                                        "color": "rgba(156, 39, 176, 0.6497)",
+                                        "histogramBase": 0,
+                                        "joinPoints": false,
+                                        "title": "Plot"
+                                    },
+                                    "plot_1": {
+                                        "visible": true,
+                                        "color": "#0496ff",
+                                        "linestyle": 0,
+                                        "linewidth": 2,
+                                        "plottype": "dataoffset",
+                                        "histogramBase": 0,
+                                        "transparency": 50,
+                                        "trackPrice": false,
+                                        "joinPoints": false,
+                                        "title": "plot_1"
+                                    }
+                                },
+                                "precision": "default",
+                                "inputs": {
+                                    "in_0": 5,
+                                    "in_1": 10
+                                },
+                                "color": "rgba( 86, 135, 29, 1)",
+                                "linewidth": 2,
+                                "palettes": {},
+                                "bands": {},
+                                "area": {},
+                                "graphics": {},
+                                "showInDataWindow": true,
+                                "visible": false,
+                                "showStudyArguments": true,
+                                "plots": {
+                                    "0": {
+                                        "id": "plot_0",
+                                        "type": "line"
+                                    },
+                                    "1": {
+                                        "id": "plot_1",
+                                        "target": "plot_0",
+                                        "type": "dataoffset"
+                                    }
+                                },
+                                "_metainfoVersion": 47,
+                                "isTVScript": false,
+                                "isTVScriptStub": false,
+                                "is_hidden_study": false,
+                                "description": "Zig Zag",
+                                "shortDescription": "ZigZag",
+                                "is_price_study": true,
+                                "classId": "ScriptWithDataOffset",
+                                "id": "ZigZag@tv-basicstudies",
+                                "description_localized": "拋物線轉向",
+                                "shortId": "ZigZag",
+                                "packageId": "tv-basicstudies",
+                                "version": "1",
+                                "fullId": "ZigZag@tv-basicstudies-1",
+                                "productId": "tv-basicstudies",
+                                "name": "ZigZag@tv-basicstudies",
+                                "format": {
+                                    "type": "price",
+                                    "precision": 4
+                                },
+                                "matchPriority": 2,
+                                "matchIndex": 0
+                            },
+                            "zorder": -14,
+                            "metaInfo": {
+                                "palettes": {},
+                                "inputs": [
+                                    {
+                                        "id": "in_0",
+                                        "name": "deviation",
+                                        "defval": 5,
+                                        "type": "integer",
+                                        "min": 1,
+                                        "max": 100
+                                    },
+                                    {
+                                        "id": "in_1",
+                                        "name": "depth",
+                                        "defval": 10,
+                                        "type": "integer",
+                                        "min": 2,
+                                        "max": 1000
+                                    }
+                                ],
+                                "plots": [
+                                    {
+                                        "id": "plot_0",
+                                        "type": "line"
+                                    },
+                                    {
+                                        "id": "plot_1",
+                                        "target": "plot_0",
+                                        "type": "dataoffset"
+                                    }
+                                ],
+                                "graphics": {},
+                                "defaults": {
+                                    "styles": {
+                                        "plot_0": {
+                                            "linestyle": 0,
+                                            "linewidth": 2,
+                                            "plottype": 0,
+                                            "trackPrice": false,
+                                            "transparency": 35,
+                                            "visible": true,
+                                            "color": "#008000"
+                                        }
+                                    },
+                                    "inputs": {
+                                        "in_0": 5,
+                                        "in_1": 10
+                                    }
+                                },
+                                "_metainfoVersion": 47,
+                                "isTVScript": false,
+                                "isTVScriptStub": false,
+                                "is_hidden_study": false,
+                                "styles": {
+                                    "plot_0": {
+                                        "title": "Plot",
+                                        "histogramBase": 0,
+                                        "joinPoints": false
+                                    }
+                                },
+                                "description": "Zig Zag",
+                                "shortDescription": "ZigZag",
+                                "is_price_study": true,
+                                "classId": "ScriptWithDataOffset",
+                                "id": "ZigZag@tv-basicstudies-1",
+                                "description_localized": "拋物線轉向",
+                                "shortId": "ZigZag",
+                                "packageId": "tv-basicstudies",
+                                "version": "1",
+                                "fullId": "ZigZag@tv-basicstudies-1",
+                                "productId": "tv-basicstudies",
+                                "name": "ZigZag@tv-basicstudies",
+                                "format": {
+                                    "type": "price",
+                                    "precision": 4
+                                }
+                            }
                         }
                     ],
                     "leftAxisesState": [],
@@ -1492,8 +1648,8 @@ const layoutData = {
                             "state": {
                                 "id": "kxJByIz82S8i",
                                 "m_priceRange": {
-                                    "m_maxValue": 42.45299498228814,
-                                    "m_minValue": 29.05
+                                    "m_maxValue": 225.88541375144572,
+                                    "m_minValue": 156.37248581382565
                                 },
                                 "m_isAutoScale": true,
                                 "m_isPercentage": false,
@@ -1501,7 +1657,7 @@ const layoutData = {
                                 "m_isLog": false,
                                 "m_isLockScale": false,
                                 "m_isInverted": false,
-                                "m_height": 565,
+                                "m_height": 585,
                                 "m_topMargin": 0.1,
                                 "m_bottomMargin": 0.1,
                                 "alignLabels": true
@@ -1514,7 +1670,8 @@ const layoutData = {
                                 "KSRDOj",
                                 "C0ry9l",
                                 "eC4HNJ",
-                                "XHLpUE"
+                                "XHLpUE",
+                                "txVFLZ"
                             ]
                         }
                     ],
@@ -1522,7 +1679,7 @@ const layoutData = {
                         "U1G4pH": {
                             "id": "YjTPHGHCzPeJ",
                             "m_priceRange": {
-                                "m_maxValue": 29756,
+                                "m_maxValue": 60993,
                                 "m_minValue": 0
                             },
                             "m_isAutoScale": true,
@@ -1531,7 +1688,7 @@ const layoutData = {
                             "m_isLog": false,
                             "m_isLockScale": false,
                             "m_isInverted": false,
-                            "m_height": 565,
+                            "m_height": 585,
                             "m_topMargin": 0.75,
                             "m_bottomMargin": 0,
                             "alignLabels": true
@@ -1834,8 +1991,8 @@ const layoutData = {
                             "state": {
                                 "id": "iVyMPa1QA4gt",
                                 "m_priceRange": {
-                                    "m_maxValue": 6.400000000000006,
-                                    "m_minValue": -9.049999999999997
+                                    "m_maxValue": 47,
+                                    "m_minValue": -56
                                 },
                                 "m_isAutoScale": true,
                                 "m_isPercentage": false,
@@ -1843,7 +2000,7 @@ const layoutData = {
                                 "m_isLog": false,
                                 "m_isLockScale": false,
                                 "m_isInverted": false,
-                                "m_height": 97,
+                                "m_height": 101,
                                 "m_topMargin": 0.1,
                                 "m_bottomMargin": 0.1,
                                 "alignLabels": true
@@ -2096,8 +2253,8 @@ const layoutData = {
                             "state": {
                                 "id": "6oWDtjVUaVhz",
                                 "m_priceRange": {
-                                    "m_maxValue": 1.1246128697120525,
-                                    "m_minValue": -1.744780797515638
+                                    "m_maxValue": 6.905886804356186,
+                                    "m_minValue": -8.642496377628447
                                 },
                                 "m_isAutoScale": true,
                                 "m_isPercentage": false,
@@ -2105,7 +2262,7 @@ const layoutData = {
                                 "m_isLog": false,
                                 "m_isLockScale": false,
                                 "m_isInverted": false,
-                                "m_height": 99,
+                                "m_height": 103,
                                 "m_topMargin": 0.1,
                                 "m_bottomMargin": 0.1,
                                 "alignLabels": true
@@ -2583,8 +2740,8 @@ const layoutData = {
                             "state": {
                                 "id": "LqBxjvIcZ52K",
                                 "m_priceRange": {
-                                    "m_maxValue": 95.51332288401244,
-                                    "m_minValue": 5.423028982792476
+                                    "m_maxValue": 98.95833333333336,
+                                    "m_minValue": 7.233335436780891
                                 },
                                 "m_isAutoScale": true,
                                 "m_isPercentage": false,
@@ -2592,7 +2749,7 @@ const layoutData = {
                                 "m_isLog": false,
                                 "m_isLockScale": false,
                                 "m_isInverted": false,
-                                "m_height": 103,
+                                "m_height": 105,
                                 "m_topMargin": 0.1,
                                 "m_bottomMargin": 0.1,
                                 "alignLabels": true
