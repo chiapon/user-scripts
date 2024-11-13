@@ -274,7 +274,7 @@ const layoutData = {
                                         }
                                     }
                                 },
-                                "symbol": "2603",
+                                "symbol": symbol,
                                 "shortName": "長榮(2603)",
                                 "timeframe": "",
                                 "onWidget": false,
