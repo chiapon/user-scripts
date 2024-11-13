@@ -10,9 +10,7 @@
 // @grant        none
 // ==/UserScript==
 
-const layoutData = // load layout data in dev tool console
-
-layoutData = {
+const layoutData = {
     "name": "alex crypto",
     "layout": "s",
     "charts": [
