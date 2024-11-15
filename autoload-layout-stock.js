@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto Load Layout Data (for Stock)
 // @namespace    AlexCoding4Fun
-// @version      1.0.1
+// @version      1.0.2
 // @description  A lazy script to auto load TradingView layout data
 // @author       Alex Lin
 // @match        https://histock.tw/stock/tv/*
@@ -15,6 +15,7 @@ let params = url.searchParams;
 let symbol = params.get("no");
 
 const layoutData = {
+    "name": "alex " + symbol,
     "layout": "s",
     "charts": [
         {
