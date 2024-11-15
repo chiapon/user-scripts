@@ -1570,7 +1570,7 @@ const layoutData = {
                             "id": "xrnwR5",
                             "state": {
                                 "inputs": {
-                                    "length": 128,
+                                    "length": 168,
                                     "source": "close",
                                     "offset": 0,
                                     "smoothingLine": "SMA",
