@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto Load Layout Data (for Crypto)
 // @namespace    AlexCoding4Fun
-// @version      1.0.2
+// @version      1.0.3
 // @description  A lazy script to auto load TradingView layout data
 // @author       Alex Lin
 // @match        https://trading-terminal.tradingview-widget.com/
@@ -11,7 +11,7 @@
 // ==/UserScript==
 
 const layoutData = {
-    "name": "alex crypto",
+    "name": "alex solusdt",
     "layout": "s",
     "charts": [
         {
@@ -431,11 +431,171 @@ const layoutData = {
                                     "percentageDisabled": false,
                                     "log": false,
                                     "logDisabled": false,
-                                    "alignLabels": true,
+                                    "alignLabels": false,
                                     "isInverted": false,
                                     "indexedTo100": false
                                 }
                             }
+                        },
+                        {
+                            "type": "LineToolRay",
+                            "id": "BIiPoL",
+                            "state": {
+                                "linecolor": "rgba(49, 121, 245, 0.9045)",
+                                "linewidth": 3,
+                                "linestyle": 1,
+                                "extendLeft": false,
+                                "extendRight": true,
+                                "leftEnd": 0,
+                                "rightEnd": 0,
+                                "showLabel": false,
+                                "horzLabelsAlign": "center",
+                                "vertLabelsAlign": "bottom",
+                                "textcolor": "#2962FF",
+                                "fontsize": 14,
+                                "bold": false,
+                                "italic": false,
+                                "alwaysShowStats": false,
+                                "showMiddlePoint": false,
+                                "showPriceLabels": false,
+                                "showPriceRange": false,
+                                "showPercentPriceRange": false,
+                                "showPipsPriceRange": false,
+                                "showBarsRange": false,
+                                "showDateTimeRange": false,
+                                "showDistance": false,
+                                "showAngle": false,
+                                "statsPosition": 2,
+                                "symbolStateVersion": 2,
+                                "zOrderVersion": 2,
+                                "visible": true,
+                                "frozen": false,
+                                "symbol": "BINANCE:SOLUSDT",
+                                "currencyId": null,
+                                "unitId": null,
+                                "title": "",
+                                "text": "",
+                                "interval": "60",
+                                "intervalsVisibilities": {
+                                    "ticks": true,
+                                    "seconds": true,
+                                    "secondsFrom": 1,
+                                    "secondsTo": 59,
+                                    "minutes": true,
+                                    "minutesFrom": 1,
+                                    "minutesTo": 59,
+                                    "hours": true,
+                                    "hoursFrom": 1,
+                                    "hoursTo": 24,
+                                    "days": true,
+                                    "daysFrom": 1,
+                                    "daysTo": 366,
+                                    "weeks": true,
+                                    "weeksFrom": 1,
+                                    "weeksTo": 52,
+                                    "months": true,
+                                    "monthsFrom": 1,
+                                    "monthsTo": 12,
+                                    "ranges": true
+                                }
+                            },
+                            "points": [
+                                {
+                                    "time_t": 1731171600,
+                                    "offset": 0,
+                                    "price": 194.86
+                                },
+                                {
+                                    "time_t": 1731643200,
+                                    "offset": 0,
+                                    "price": 204.48
+                                }
+                            ],
+                            "zorder": -85000,
+                            "ownerSource": "_seriesId",
+                            "isSelectionEnabled": true,
+                            "userEditEnabled": true,
+                            "linkKey": "7rgJDW6L0pCY"
+                        },
+                        {
+                            "type": "LineToolRay",
+                            "id": "KYUUfG",
+                            "state": {
+                                "linecolor": "rgba(49, 121, 245, 0.8981)",
+                                "linewidth": 3,
+                                "linestyle": 1,
+                                "extendLeft": false,
+                                "extendRight": true,
+                                "leftEnd": 0,
+                                "rightEnd": 0,
+                                "showLabel": false,
+                                "horzLabelsAlign": "center",
+                                "vertLabelsAlign": "bottom",
+                                "textcolor": "#2962FF",
+                                "fontsize": 14,
+                                "bold": false,
+                                "italic": false,
+                                "alwaysShowStats": false,
+                                "showMiddlePoint": false,
+                                "showPriceLabels": false,
+                                "showPriceRange": false,
+                                "showPercentPriceRange": false,
+                                "showPipsPriceRange": false,
+                                "showBarsRange": false,
+                                "showDateTimeRange": false,
+                                "showDistance": false,
+                                "showAngle": false,
+                                "statsPosition": 2,
+                                "symbolStateVersion": 2,
+                                "zOrderVersion": 2,
+                                "visible": true,
+                                "frozen": false,
+                                "symbol": "BINANCE:SOLUSDT",
+                                "currencyId": null,
+                                "unitId": null,
+                                "title": "",
+                                "text": "",
+                                "interval": "60",
+                                "intervalsVisibilities": {
+                                    "ticks": true,
+                                    "seconds": true,
+                                    "secondsFrom": 1,
+                                    "secondsTo": 59,
+                                    "minutes": true,
+                                    "minutesFrom": 1,
+                                    "minutesTo": 59,
+                                    "hours": true,
+                                    "hoursFrom": 1,
+                                    "hoursTo": 24,
+                                    "days": true,
+                                    "daysFrom": 1,
+                                    "daysTo": 366,
+                                    "weeks": true,
+                                    "weeksFrom": 1,
+                                    "weeksTo": 52,
+                                    "months": true,
+                                    "monthsFrom": 1,
+                                    "monthsTo": 12,
+                                    "ranges": true
+                                }
+                            },
+                            "points": [
+                                {
+                                    "time_t": 1731402000,
+                                    "offset": 0,
+                                    "price": 225.21
+                                },
+                                {
+                                    "time_t": 1731733200,
+                                    "offset": 0,
+                                    "price": 221.99
+                                }
+                            ],
+                            "zorder": -82500,
+                            "ownerSource": "_seriesId",
+                            "isSelectionEnabled": true,
+                            "userEditEnabled": true,
+                            "linkKey": "piw2vl0SQErm"
                         },
                         {
                             "type": "study_Volume",
@@ -1604,7 +1764,7 @@ const layoutData = {
                                 "palettes": {},
                                 "filledAreasStyle": {},
                                 "filledAreas": {},
-                                "visible": true,
+                                "visible": false,
                                 "showLegendValues": true,
                                 "showLabelsOnPriceScale": true,
                                 "precision": "default",
@@ -1811,7 +1971,7 @@ const layoutData = {
                                 "palettes": {},
                                 "filledAreasStyle": {},
                                 "filledAreas": {},
-                                "visible": true,
+                                "visible": false,
                                 "showLegendValues": true,
                                 "showLabelsOnPriceScale": true,
                                 "precision": "default",
@@ -2187,6 +2347,694 @@ const layoutData = {
                                 "productId": "tv-basicstudies",
                                 "_serverMetaInfoVersion": 52
                             }
+                        },
+                        {
+                            "type": "LineToolFibRetracement",
+                            "id": "6YYsrK",
+                            "state": {
+                                "showCoeffs": false,
+                                "showPrices": true,
+                                "fillBackground": true,
+                                "transparency": 80,
+                                "extendLines": true,
+                                "extendLinesLeft": false,
+                                "horzLabelsAlign": "right",
+                                "vertLabelsAlign": "bottom",
+                                "showText": true,
+                                "horzTextAlign": "center",
+                                "vertTextAlign": "middle",
+                                "reverse": false,
+                                "coeffsAsPercents": false,
+                                "fibLevelsBasedOnLogScale": false,
+                                "labelFontSize": 10,
+                                "trendline": {
+                                    "visible": false,
+                                    "color": "#787B86",
+                                    "linewidth": 1,
+                                    "linestyle": 2
+                                },
+                                "levelsStyle": {
+                                    "linewidth": 1,
+                                    "linestyle": 2
+                                },
+                                "level1": [
+                                    0,
+                                    "#787B86",
+                                    false,
+                                    ""
+                                ],
+                                "level2": [
+                                    0.236,
+                                    "#F23645",
+                                    false,
+                                    ""
+                                ],
+                                "level3": [
+                                    0.382,
+                                    "#FF9800",
+                                    false,
+                                    ""
+                                ],
+                                "level4": [
+                                    0.5,
+                                    "#4caf50",
+                                    false,
+                                    ""
+                                ],
+                                "level5": [
+                                    0.618,
+                                    "rgba(255, 238, 88, 1)",
+                                    true,
+                                    ""
+                                ],
+                                "level6": [
+                                    0.786,
+                                    "#00bcd4",
+                                    false,
+                                    ""
+                                ],
+                                "level7": [
+                                    1,
+                                    "#787B86",
+                                    false,
+                                    ""
+                                ],
+                                "level8": [
+                                    1.618,
+                                    "#2962FF",
+                                    false,
+                                    ""
+                                ],
+                                "level9": [
+                                    2.618,
+                                    "#F23645",
+                                    false,
+                                    ""
+                                ],
+                                "level10": [
+                                    3.618,
+                                    "#9c27b0",
+                                    false,
+                                    ""
+                                ],
+                                "level11": [
+                                    4.236,
+                                    "#e91e63",
+                                    false,
+                                    ""
+                                ],
+                                "level12": [
+                                    1.272,
+                                    "#FF9800",
+                                    false,
+                                    ""
+                                ],
+                                "level13": [
+                                    1.414,
+                                    "#F23645",
+                                    false,
+                                    ""
+                                ],
+                                "level16": [
+                                    2,
+                                    "#089981",
+                                    false,
+                                    ""
+                                ],
+                                "level14": [
+                                    2.272,
+                                    "#FF9800",
+                                    false,
+                                    ""
+                                ],
+                                "level15": [
+                                    2.414,
+                                    "#4caf50",
+                                    false,
+                                    ""
+                                ],
+                                "level17": [
+                                    3,
+                                    "#00bcd4",
+                                    false,
+                                    ""
+                                ],
+                                "level18": [
+                                    3.272,
+                                    "#787B86",
+                                    false,
+                                    ""
+                                ],
+                                "level19": [
+                                    3.414,
+                                    "#2962FF",
+                                    false,
+                                    ""
+                                ],
+                                "level20": [
+                                    4,
+                                    "#F23645",
+                                    false,
+                                    ""
+                                ],
+                                "level21": [
+                                    4.272,
+                                    "#9c27b0",
+                                    false,
+                                    ""
+                                ],
+                                "level22": [
+                                    4.414,
+                                    "#e91e63",
+                                    false,
+                                    ""
+                                ],
+                                "level23": [
+                                    4.618,
+                                    "#FF9800",
+                                    false,
+                                    ""
+                                ],
+                                "level24": [
+                                    4.764,
+                                    "#089981",
+                                    false,
+                                    ""
+                                ],
+                                "symbolStateVersion": 2,
+                                "zOrderVersion": 2,
+                                "visible": true,
+                                "frozen": false,
+                                "symbol": "BINANCE:SOLUSDT",
+                                "currencyId": null,
+                                "unitId": null,
+                                "intervalsVisibilities": {
+                                    "ticks": true,
+                                    "seconds": true,
+                                    "secondsFrom": 1,
+                                    "secondsTo": 59,
+                                    "minutes": true,
+                                    "minutesFrom": 1,
+                                    "minutesTo": 59,
+                                    "hours": true,
+                                    "hoursFrom": 1,
+                                    "hoursTo": 24,
+                                    "days": true,
+                                    "daysFrom": 1,
+                                    "daysTo": 366,
+                                    "weeks": true,
+                                    "weeksFrom": 1,
+                                    "weeksTo": 52,
+                                    "months": true,
+                                    "monthsFrom": 1,
+                                    "monthsTo": 12,
+                                    "ranges": true
+                                },
+                                "title": "",
+                                "interval": "240"
+                            },
+                            "points": [
+                                {
+                                    "time_t": 1731168000,
+                                    "offset": 0,
+                                    "price": 194.86
+                                },
+                                {
+                                    "time_t": 1731398400,
+                                    "offset": 0,
+                                    "price": 225.21
+                                }
+                            ],
+                            "zorder": -81250,
+                            "ownerSource": "_seriesId",
+                            "isSelectionEnabled": true,
+                            "userEditEnabled": true,
+                            "linkKey": "ekgysMuX9EAX",
+                            "version": 2
+                        },
+                        {
+                            "type": "LineToolRay",
+                            "id": "QRfK38",
+                            "state": {
+                                "linecolor": "rgba(49, 121, 245, 0.9045)",
+                                "linewidth": 3,
+                                "linestyle": 2,
+                                "extendLeft": false,
+                                "extendRight": true,
+                                "leftEnd": 0,
+                                "rightEnd": 0,
+                                "showLabel": false,
+                                "horzLabelsAlign": "center",
+                                "vertLabelsAlign": "bottom",
+                                "textcolor": "#2962FF",
+                                "fontsize": 14,
+                                "bold": false,
+                                "italic": false,
+                                "alwaysShowStats": false,
+                                "showMiddlePoint": false,
+                                "showPriceLabels": false,
+                                "showPriceRange": false,
+                                "showPercentPriceRange": false,
+                                "showPipsPriceRange": false,
+                                "showBarsRange": false,
+                                "showDateTimeRange": false,
+                                "showDistance": false,
+                                "showAngle": false,
+                                "statsPosition": 2,
+                                "symbolStateVersion": 2,
+                                "zOrderVersion": 2,
+                                "visible": true,
+                                "frozen": false,
+                                "symbol": "BINANCE:DOGEUSDT",
+                                "currencyId": null,
+                                "unitId": null,
+                                "title": "",
+                                "text": "",
+                                "intervalsVisibilities": {
+                                    "ticks": true,
+                                    "seconds": true,
+                                    "secondsFrom": 1,
+                                    "secondsTo": 59,
+                                    "minutes": true,
+                                    "minutesFrom": 1,
+                                    "minutesTo": 59,
+                                    "hours": true,
+                                    "hoursFrom": 1,
+                                    "hoursTo": 24,
+                                    "days": true,
+                                    "daysFrom": 1,
+                                    "daysTo": 366,
+                                    "weeks": true,
+                                    "weeksFrom": 1,
+                                    "weeksTo": 52,
+                                    "months": true,
+                                    "monthsFrom": 1,
+                                    "monthsTo": 12,
+                                    "ranges": true
+                                },
+                                "interval": "240"
+                            },
+                            "points": [
+                                {
+                                    "time_t": 1731398400,
+                                    "offset": 0,
+                                    "price": 0.43858
+                                },
+                                {
+                                    "time_t": 1731585600,
+                                    "offset": 0,
+                                    "price": 0.41672
+                                }
+                            ],
+                            "zorder": -80625,
+                            "ownerSource": "_seriesId",
+                            "isSelectionEnabled": true,
+                            "userEditEnabled": true,
+                            "linkKey": "J83uVzP0fFQU"
+                        },
+                        {
+                            "type": "LineToolRay",
+                            "id": "CYxX3M",
+                            "state": {
+                                "linecolor": "rgba(49, 121, 245, 0.9045)",
+                                "linewidth": 3,
+                                "linestyle": 2,
+                                "extendLeft": false,
+                                "extendRight": true,
+                                "leftEnd": 0,
+                                "rightEnd": 0,
+                                "showLabel": false,
+                                "horzLabelsAlign": "center",
+                                "vertLabelsAlign": "bottom",
+                                "textcolor": "#2962FF",
+                                "fontsize": 14,
+                                "bold": false,
+                                "italic": false,
+                                "alwaysShowStats": false,
+                                "showMiddlePoint": false,
+                                "showPriceLabels": false,
+                                "showPriceRange": false,
+                                "showPercentPriceRange": false,
+                                "showPipsPriceRange": false,
+                                "showBarsRange": false,
+                                "showDateTimeRange": false,
+                                "showDistance": false,
+                                "showAngle": false,
+                                "statsPosition": 2,
+                                "symbolStateVersion": 2,
+                                "zOrderVersion": 2,
+                                "visible": true,
+                                "frozen": false,
+                                "symbol": "BINANCE:DOGEUSDT",
+                                "currencyId": null,
+                                "unitId": null,
+                                "title": "",
+                                "text": "",
+                                "intervalsVisibilities": {
+                                    "ticks": true,
+                                    "seconds": true,
+                                    "secondsFrom": 1,
+                                    "secondsTo": 59,
+                                    "minutes": true,
+                                    "minutesFrom": 1,
+                                    "minutesTo": 59,
+                                    "hours": true,
+                                    "hoursFrom": 1,
+                                    "hoursTo": 24,
+                                    "days": true,
+                                    "daysFrom": 1,
+                                    "daysTo": 366,
+                                    "weeks": true,
+                                    "weeksFrom": 1,
+                                    "weeksTo": 52,
+                                    "months": true,
+                                    "monthsFrom": 1,
+                                    "monthsTo": 12,
+                                    "ranges": true
+                                },
+                                "interval": "240"
+                            },
+                            "points": [
+                                {
+                                    "time_t": 1731412800,
+                                    "offset": 0,
+                                    "price": 0.34006
+                                },
+                                {
+                                    "time_t": 1731686400,
+                                    "offset": 0,
+                                    "price": 0.35432
+                                }
+                            ],
+                            "zorder": -80313,
+                            "ownerSource": "_seriesId",
+                            "isSelectionEnabled": true,
+                            "userEditEnabled": true,
+                            "linkKey": "M1qdZYM2G9T7"
+                        },
+                        {
+                            "type": "LineToolRay",
+                            "id": "QLZ4JT",
+                            "state": {
+                                "linecolor": "rgba(49, 121, 245, 0.9045)",
+                                "linewidth": 3,
+                                "linestyle": 2,
+                                "extendLeft": false,
+                                "extendRight": true,
+                                "leftEnd": 0,
+                                "rightEnd": 0,
+                                "showLabel": false,
+                                "horzLabelsAlign": "center",
+                                "vertLabelsAlign": "bottom",
+                                "textcolor": "#2962FF",
+                                "fontsize": 14,
+                                "bold": false,
+                                "italic": false,
+                                "alwaysShowStats": false,
+                                "showMiddlePoint": false,
+                                "showPriceLabels": false,
+                                "showPriceRange": false,
+                                "showPercentPriceRange": false,
+                                "showPipsPriceRange": false,
+                                "showBarsRange": false,
+                                "showDateTimeRange": false,
+                                "showDistance": false,
+                                "showAngle": false,
+                                "statsPosition": 2,
+                                "symbolStateVersion": 2,
+                                "zOrderVersion": 2,
+                                "visible": true,
+                                "frozen": false,
+                                "symbol": "BINANCE:BNBUSDT",
+                                "currencyId": null,
+                                "unitId": null,
+                                "title": "",
+                                "text": "",
+                                "intervalsVisibilities": {
+                                    "ticks": true,
+                                    "seconds": true,
+                                    "secondsFrom": 1,
+                                    "secondsTo": 59,
+                                    "minutes": true,
+                                    "minutesFrom": 1,
+                                    "minutesTo": 59,
+                                    "hours": true,
+                                    "hoursFrom": 1,
+                                    "hoursTo": 24,
+                                    "days": true,
+                                    "daysFrom": 1,
+                                    "daysTo": 366,
+                                    "weeks": true,
+                                    "weeksFrom": 1,
+                                    "weeksTo": 52,
+                                    "months": true,
+                                    "monthsFrom": 1,
+                                    "monthsTo": 12,
+                                    "ranges": true
+                                },
+                                "interval": "240"
+                            },
+                            "points": [
+                                {
+                                    "time_t": 1731369600,
+                                    "offset": 0,
+                                    "price": 667.4
+                                },
+                                {
+                                    "time_t": 1731556800,
+                                    "offset": 0,
+                                    "price": 660.4
+                                }
+                            ],
+                            "zorder": -80157,
+                            "ownerSource": "_seriesId",
+                            "isSelectionEnabled": true,
+                            "userEditEnabled": true,
+                            "linkKey": "840XeycPz6f5"
+                        },
+                        {
+                            "type": "LineToolFibRetracement",
+                            "id": "8IEaol",
+                            "state": {
+                                "showCoeffs": false,
+                                "showPrices": true,
+                                "fillBackground": true,
+                                "transparency": 80,
+                                "extendLines": true,
+                                "extendLinesLeft": false,
+                                "horzLabelsAlign": "right",
+                                "vertLabelsAlign": "bottom",
+                                "showText": true,
+                                "horzTextAlign": "center",
+                                "vertTextAlign": "middle",
+                                "reverse": false,
+                                "coeffsAsPercents": false,
+                                "fibLevelsBasedOnLogScale": false,
+                                "labelFontSize": 10,
+                                "trendline": {
+                                    "visible": false,
+                                    "color": "#787B86",
+                                    "linewidth": 1,
+                                    "linestyle": 2
+                                },
+                                "levelsStyle": {
+                                    "linewidth": 1,
+                                    "linestyle": 2
+                                },
+                                "level1": [
+                                    0,
+                                    "#787B86",
+                                    false,
+                                    ""
+                                ],
+                                "level2": [
+                                    0.236,
+                                    "#F23645",
+                                    false,
+                                    ""
+                                ],
+                                "level3": [
+                                    0.382,
+                                    "#FF9800",
+                                    false,
+                                    ""
+                                ],
+                                "level4": [
+                                    0.5,
+                                    "#4caf50",
+                                    false,
+                                    ""
+                                ],
+                                "level5": [
+                                    0.618,
+                                    "rgba(255, 238, 88, 1)",
+                                    true,
+                                    ""
+                                ],
+                                "level6": [
+                                    0.786,
+                                    "#00bcd4",
+                                    false,
+                                    ""
+                                ],
+                                "level7": [
+                                    1,
+                                    "#787B86",
+                                    false,
+                                    ""
+                                ],
+                                "level8": [
+                                    1.618,
+                                    "#2962FF",
+                                    false,
+                                    ""
+                                ],
+                                "level9": [
+                                    2.618,
+                                    "#F23645",
+                                    false,
+                                    ""
+                                ],
+                                "level10": [
+                                    3.618,
+                                    "#9c27b0",
+                                    false,
+                                    ""
+                                ],
+                                "level11": [
+                                    4.236,
+                                    "#e91e63",
+                                    false,
+                                    ""
+                                ],
+                                "level12": [
+                                    1.272,
+                                    "#FF9800",
+                                    false,
+                                    ""
+                                ],
+                                "level13": [
+                                    1.414,
+                                    "#F23645",
+                                    false,
+                                    ""
+                                ],
+                                "level16": [
+                                    2,
+                                    "#089981",
+                                    false,
+                                    ""
+                                ],
+                                "level14": [
+                                    2.272,
+                                    "#FF9800",
+                                    false,
+                                    ""
+                                ],
+                                "level15": [
+                                    2.414,
+                                    "#4caf50",
+                                    false,
+                                    ""
+                                ],
+                                "level17": [
+                                    3,
+                                    "#00bcd4",
+                                    false,
+                                    ""
+                                ],
+                                "level18": [
+                                    3.272,
+                                    "#787B86",
+                                    false,
+                                    ""
+                                ],
+                                "level19": [
+                                    3.414,
+                                    "#2962FF",
+                                    false,
+                                    ""
+                                ],
+                                "level20": [
+                                    4,
+                                    "#F23645",
+                                    false,
+                                    ""
+                                ],
+                                "level21": [
+                                    4.272,
+                                    "#9c27b0",
+                                    false,
+                                    ""
+                                ],
+                                "level22": [
+                                    4.414,
+                                    "#e91e63",
+                                    false,
+                                    ""
+                                ],
+                                "level23": [
+                                    4.618,
+                                    "#FF9800",
+                                    false,
+                                    ""
+                                ],
+                                "level24": [
+                                    4.764,
+                                    "#089981",
+                                    false,
+                                    ""
+                                ],
+                                "symbolStateVersion": 2,
+                                "zOrderVersion": 2,
+                                "visible": true,
+                                "frozen": false,
+                                "symbol": "BINANCE:SOLUSDT",
+                                "currencyId": null,
+                                "unitId": null,
+                                "intervalsVisibilities": {
+                                    "ticks": true,
+                                    "seconds": true,
+                                    "secondsFrom": 1,
+                                    "secondsTo": 59,
+                                    "minutes": true,
+                                    "minutesFrom": 1,
+                                    "minutesTo": 59,
+                                    "hours": true,
+                                    "hoursFrom": 1,
+                                    "hoursTo": 24,
+                                    "days": true,
+                                    "daysFrom": 1,
+                                    "daysTo": 366,
+                                    "weeks": true,
+                                    "weeksFrom": 1,
+                                    "weeksTo": 52,
+                                    "months": true,
+                                    "monthsFrom": 1,
+                                    "monthsTo": 12,
+                                    "ranges": true
+                                },
+                                "title": "",
+                                "interval": "240"
+                            },
+                            "points": [
+                                {
+                                    "time_t": 1731801600,
+                                    "offset": 0,
+                                    "price": 212.1
+                                },
+                                {
+                                    "time_t": 1731830400,
+                                    "offset": 0,
+                                    "price": 242.33
+                                }
+                            ],
+                            "zorder": -80079,
+                            "ownerSource": "_seriesId",
+                            "isSelectionEnabled": true,
+                            "userEditEnabled": true,
+                            "linkKey": "uj2BWjRYUHmD",
+                            "version": 2
                         }
                     ],
                     "mainSourceId": "_seriesId",
@@ -2205,7 +3053,7 @@ const layoutData = {
                                 "m_isInverted": false,
                                 "m_topMargin": 0.1,
                                 "m_bottomMargin": 0.08,
-                                "alignLabels": true,
+                                "alignLabels": false,
                                 "logFormula": {
                                     "logicalOffset": 6,
                                     "coordOffset": 0.000001
@@ -2213,6 +3061,8 @@ const layoutData = {
                                 "hasCalculatedPriceRange": true
                             },
                             "sources": [
+                                "BIiPoL",
+                                "KYUUfG",
                                 "_seriesId",
                                 "zcwyUz",
                                 "tAVrgg",
@@ -2220,7 +3070,12 @@ const layoutData = {
                                 "pZSNW1",
                                 "xrnwR5",
                                 "J4Ne2f",
-                                "sj6B9D"
+                                "sj6B9D",
+                                "6YYsrK",
+                                "QRfK38",
+                                "CYxX3M",
+                                "QLZ4JT",
+                                "8IEaol"
                             ]
                         }
                     ],
@@ -2249,257 +3104,6 @@ const layoutData = {
                 },
                 {
                     "sources": [
-                        {
-                            "type": "Study",
-                            "id": "Ks9EAs",
-                            "state": {
-                                "inputs": {
-                                    "in_0": 14,
-                                    "in_1": 14,
-                                    "in_2": 3,
-                                    "in_3": 3
-                                },
-                                "styles": {
-                                    "plot_0": {
-                                        "display": 15,
-                                        "linestyle": 0,
-                                        "linewidth": 1,
-                                        "plottype": 0,
-                                        "trackPrice": false,
-                                        "transparency": 0,
-                                        "color": "#2196f3",
-                                        "title": "plot_0"
-                                    },
-                                    "plot_1": {
-                                        "display": 15,
-                                        "linestyle": 0,
-                                        "linewidth": 1,
-                                        "plottype": 0,
-                                        "trackPrice": false,
-                                        "transparency": 0,
-                                        "color": "#ff6d00",
-                                        "title": "plot_1"
-                                    }
-                                },
-                                "bands": {
-                                    "0": {
-                                        "color": "#787B86",
-                                        "linestyle": 2,
-                                        "linewidth": 1,
-                                        "visible": true,
-                                        "value": 80
-                                    },
-                                    "1": {
-                                        "color": "#787B86",
-                                        "linestyle": 2,
-                                        "linewidth": 1,
-                                        "visible": true,
-                                        "value": 20
-                                    }
-                                },
-                                "graphics": {},
-                                "ohlcPlots": {},
-                                "palettes": {},
-                                "filledAreasStyle": {
-                                    "fill_0": {
-                                        "color": "#2196F3",
-                                        "transparency": 90,
-                                        "visible": true
-                                    }
-                                },
-                                "filledAreas": {},
-                                "visible": true,
-                                "showLegendValues": true,
-                                "showLabelsOnPriceScale": true,
-                                "precision": "default",
-                                "parentSources": {},
-                                "intervalsVisibilities": {
-                                    "ticks": true,
-                                    "seconds": true,
-                                    "secondsFrom": 1,
-                                    "secondsTo": 59,
-                                    "minutes": true,
-                                    "minutesFrom": 1,
-                                    "minutesTo": 59,
-                                    "hours": true,
-                                    "hoursFrom": 1,
-                                    "hoursTo": 24,
-                                    "days": true,
-                                    "daysFrom": 1,
-                                    "daysTo": 366,
-                                    "weeks": true,
-                                    "weeksFrom": 1,
-                                    "weeksTo": 52,
-                                    "months": true,
-                                    "monthsFrom": 1,
-                                    "monthsTo": 12,
-                                    "ranges": true
-                                }
-                            },
-                            "zorder": -10000,
-                            "ownFirstValue": null,
-                            "metaInfo": {
-                                "palettes": {},
-                                "inputs": [
-                                    {
-                                        "id": "in_0",
-                                        "name": "lengthRSI",
-                                        "defval": 14,
-                                        "type": "integer",
-                                        "min": 1,
-                                        "max": 10000,
-                                        "display": 15
-                                    },
-                                    {
-                                        "id": "in_1",
-                                        "name": "lengthStoch",
-                                        "defval": 14,
-                                        "type": "integer",
-                                        "min": 1,
-                                        "max": 10000,
-                                        "display": 15
-                                    },
-                                    {
-                                        "id": "in_2",
-                                        "name": "smoothK",
-                                        "defval": 3,
-                                        "type": "integer",
-                                        "min": 1,
-                                        "max": 10000,
-                                        "display": 15
-                                    },
-                                    {
-                                        "id": "in_3",
-                                        "name": "smoothD",
-                                        "defval": 3,
-                                        "type": "integer",
-                                        "min": 1,
-                                        "max": 10000,
-                                        "display": 15
-                                    }
-                                ],
-                                "plots": [
-                                    {
-                                        "id": "plot_0",
-                                        "type": "line"
-                                    },
-                                    {
-                                        "id": "plot_1",
-                                        "type": "line"
-                                    }
-                                ],
-                                "graphics": {},
-                                "defaults": {
-                                    "styles": {
-                                        "plot_0": {
-                                            "display": 15,
-                                            "linestyle": 0,
-                                            "linewidth": 1,
-                                            "plottype": 0,
-                                            "trackPrice": false,
-                                            "transparency": 0,
-                                            "color": "#2196F3"
-                                        },
-                                        "plot_1": {
-                                            "display": 15,
-                                            "linestyle": 0,
-                                            "linewidth": 1,
-                                            "plottype": 0,
-                                            "trackPrice": false,
-                                            "transparency": 0,
-                                            "color": "#FF6D00"
-                                        }
-                                    },
-                                    "bands": [
-                                        {
-                                            "color": "#787B86",
-                                            "linestyle": 2,
-                                            "linewidth": 1,
-                                            "visible": true,
-                                            "value": 80
-                                        },
-                                        {
-                                            "color": "#787B86",
-                                            "linestyle": 2,
-                                            "linewidth": 1,
-                                            "visible": true,
-                                            "value": 20
-                                        }
-                                    ],
-                                    "filledAreasStyle": {
-                                        "fill_0": {
-                                            "color": "#2196F3",
-                                            "transparency": 90,
-                                            "visible": true
-                                        }
-                                    },
-                                    "inputs": {
-                                        "in_0": 14,
-                                        "in_1": 14,
-                                        "in_2": 3,
-                                        "in_3": 3
-                                    }
-                                },
-                                "_metainfoVersion": 53,
-                                "isTVScript": false,
-                                "isTVScriptStub": false,
-                                "is_hidden_study": false,
-                                "styles": {
-                                    "plot_0": {
-                                        "title": "%K",
-                                        "histogramBase": 0,
-                                        "joinPoints": false,
-                                        "zorder": 1.1
-                                    },
-                                    "plot_1": {
-                                        "title": "%D",
-                                        "histogramBase": 0,
-                                        "joinPoints": false,
-                                        "zorder": 1.11
-                                    }
-                                },
-                                "description": "Stochastic RSI",
-                                "shortDescription": "Stoch RSI",
-                                "is_price_study": false,
-                                "bands": [
-                                    {
-                                        "id": "hline_0",
-                                        "name": "UpperLimit",
-                                        "zorder": -1.1
-                                    },
-                                    {
-                                        "id": "hline_1",
-                                        "name": "LowerLimit",
-                                        "zorder": -1.11
-                                    }
-                                ],
-                                "filledAreas": [
-                                    {
-                                        "id": "fill_0",
-                                        "objAId": "hline_0",
-                                        "objBId": "hline_1",
-                                        "type": "hline_hline",
-                                        "title": "Hlines Background",
-                                        "zorder": -2
-                                    }
-                                ],
-                                "id": "Stochastic RSI@tv-basicstudies-1",
-                                "scriptIdPart": "",
-                                "name": "Stochastic RSI",
-                                "format": {
-                                    "precision": 2,
-                                    "type": "price"
-                                },
-                                "usePlotsZOrder": true,
-                                "description_localized": "Stochastic RSI",
-                                "shortId": "Stochastic RSI",
-                                "packageId": "tv-basicstudies",
-                                "version": 1,
-                                "fullId": "Stochastic RSI@tv-basicstudies-1",
-                                "productId": "tv-basicstudies",
-                                "_serverMetaInfoVersion": 52
-                            }
-                        },
                         {
                             "type": "Study",
                             "id": "PJLdFP",
@@ -2772,63 +3376,25 @@ const layoutData = {
                                 "productId": "tv-basicstudies",
                                 "_serverMetaInfoVersion": 52
                             }
-                        }
-                    ],
-                    "mainSourceId": "Ks9EAs",
-                    "stretchFactor": 678.8484516711251,
-                    "leftAxisesState": [],
-                    "rightAxisesState": [
-                        {
-                            "state": {
-                                "id": "d4c0sDqvoJui",
-                                "m_priceRange": null,
-                                "m_isAutoScale": true,
-                                "m_isPercentage": false,
-                                "m_isIndexedTo100": false,
-                                "m_isLog": false,
-                                "m_isLockScale": false,
-                                "m_isInverted": false,
-                                "m_topMargin": 0.1,
-                                "m_bottomMargin": 0.08,
-                                "alignLabels": true,
-                                "logFormula": {
-                                    "logicalOffset": 4,
-                                    "coordOffset": 0.0001
-                                },
-                                "hasCalculatedPriceRange": true
-                            },
-                            "sources": [
-                                "Ks9EAs",
-                                "PJLdFP"
-                            ]
-                        }
-                    ],
-                    "overlayPriceScales": {},
-                    "priceScaleRatio": null,
-                    "isCollapsed": false
-                },
-                {
-                    "sources": [
+                        },
                         {
                             "type": "Study",
-                            "id": "2H5TZM",
+                            "id": "xir3fQ",
                             "state": {
                                 "inputs": {
-                                    "in_0": 12,
-                                    "in_1": 26,
-                                    "in_3": "close",
-                                    "in_2": 9,
-                                    "symbol": ""
+                                    "in_0": 14,
+                                    "in_1": 3,
+                                    "in_2": 3
                                 },
                                 "styles": {
                                     "plot_0": {
                                         "display": 15,
                                         "linestyle": 0,
                                         "linewidth": 1,
-                                        "plottype": 5,
+                                        "plottype": 0,
                                         "trackPrice": false,
                                         "transparency": 0,
-                                        "color": "#ff5252",
+                                        "color": "#2196f3",
                                         "title": "plot_0"
                                     },
                                     "plot_1": {
@@ -2838,50 +3404,36 @@ const layoutData = {
                                         "plottype": 0,
                                         "trackPrice": false,
                                         "transparency": 0,
-                                        "color": "#2196f3",
-                                        "title": "plot_1"
-                                    },
-                                    "plot_2": {
-                                        "display": 15,
-                                        "linestyle": 0,
-                                        "linewidth": 1,
-                                        "plottype": 0,
-                                        "trackPrice": false,
-                                        "transparency": 0,
                                         "color": "#ff6d00",
-                                        "title": "plot_2"
+                                        "title": "plot_1"
                                     }
                                 },
-                                "bands": {},
+                                "bands": {
+                                    "0": {
+                                        "color": "#787B86",
+                                        "linestyle": 2,
+                                        "linewidth": 1,
+                                        "visible": true,
+                                        "value": 80
+                                    },
+                                    "1": {
+                                        "color": "#787B86",
+                                        "linestyle": 2,
+                                        "linewidth": 1,
+                                        "visible": true,
+                                        "value": 20
+                                    }
+                                },
                                 "graphics": {},
                                 "ohlcPlots": {},
-                                "palettes": {
-                                    "palette_0": {
-                                        "colors": {
-                                            "0": {
-                                                "color": "#22AB94",
-                                                "width": 1,
-                                                "style": 0
-                                            },
-                                            "1": {
-                                                "color": "#ACE5DC",
-                                                "width": 1,
-                                                "style": 0
-                                            },
-                                            "2": {
-                                                "color": "#FCCBCD",
-                                                "width": 1,
-                                                "style": 0
-                                            },
-                                            "3": {
-                                                "color": "#FF5252",
-                                                "width": 1,
-                                                "style": 0
-                                            }
-                                        }
+                                "palettes": {},
+                                "filledAreasStyle": {
+                                    "fill_0": {
+                                        "color": "#2196F3",
+                                        "transparency": 90,
+                                        "visible": true
                                     }
                                 },
-                                "filledAreasStyle": {},
                                 "filledAreas": {},
                                 "visible": true,
                                 "showLegendValues": true,
@@ -2911,78 +3463,36 @@ const layoutData = {
                                     "ranges": true
                                 }
                             },
-                            "zorder": -10000,
+                            "zorder": -40000,
                             "ownFirstValue": null,
                             "metaInfo": {
-                                "palettes": {
-                                    "palette_0": {
-                                        "colors": {
-                                            "0": {
-                                                "name": "Color 0"
-                                            },
-                                            "1": {
-                                                "name": "Color 1"
-                                            },
-                                            "2": {
-                                                "name": "Color 2"
-                                            },
-                                            "3": {
-                                                "name": "Color 3"
-                                            }
-                                        }
-                                    }
-                                },
+                                "palettes": {},
                                 "inputs": [
                                     {
-                                        "id": "symbol",
-                                        "name": "Other Symbol",
-                                        "defval": "",
-                                        "type": "symbol",
-                                        "optional": true,
-                                        "isHidden": false,
-                                        "display": 15
-                                    },
-                                    {
                                         "id": "in_0",
-                                        "name": "fastLength",
-                                        "defval": 12,
+                                        "name": "%K Length",
+                                        "defval": 14,
                                         "type": "integer",
                                         "min": 1,
-                                        "max": 2000,
+                                        "max": 10000,
                                         "display": 15
                                     },
                                     {
                                         "id": "in_1",
-                                        "name": "slowLength",
-                                        "defval": 26,
+                                        "name": "%K Smoothing",
+                                        "defval": 1,
                                         "type": "integer",
                                         "min": 1,
-                                        "max": 2000,
-                                        "display": 15
-                                    },
-                                    {
-                                        "id": "in_3",
-                                        "name": "Source",
-                                        "defval": "close",
-                                        "type": "source",
-                                        "options": [
-                                            "open",
-                                            "high",
-                                            "low",
-                                            "close",
-                                            "hl2",
-                                            "hlc3",
-                                            "ohlc4"
-                                        ],
+                                        "max": 10000,
                                         "display": 15
                                     },
                                     {
                                         "id": "in_2",
-                                        "name": "signalLength",
-                                        "defval": 9,
+                                        "name": "%D Smoothing",
+                                        "defval": 3,
                                         "type": "integer",
                                         "min": 1,
-                                        "max": 50,
+                                        "max": 10000,
                                         "display": 15
                                     }
                                 ],
@@ -2994,16 +3504,6 @@ const layoutData = {
                                     {
                                         "id": "plot_1",
                                         "type": "line"
-                                    },
-                                    {
-                                        "id": "plot_2",
-                                        "type": "line"
-                                    },
-                                    {
-                                        "id": "plot_3",
-                                        "palette": "palette_0",
-                                        "target": "plot_0",
-                                        "type": "colorer"
                                     }
                                 ],
                                 "graphics": {},
@@ -3013,21 +3513,12 @@ const layoutData = {
                                             "display": 15,
                                             "linestyle": 0,
                                             "linewidth": 1,
-                                            "plottype": 5,
-                                            "trackPrice": false,
-                                            "transparency": 0,
-                                            "color": "#FF5252"
-                                        },
-                                        "plot_1": {
-                                            "display": 15,
-                                            "linestyle": 0,
-                                            "linewidth": 1,
                                             "plottype": 0,
                                             "trackPrice": false,
                                             "transparency": 0,
                                             "color": "#2196F3"
                                         },
-                                        "plot_2": {
+                                        "plot_1": {
                                             "display": 15,
                                             "linestyle": 0,
                                             "linewidth": 1,
@@ -3037,38 +3528,33 @@ const layoutData = {
                                             "color": "#FF6D00"
                                         }
                                     },
-                                    "palettes": {
-                                        "palette_0": {
-                                            "colors": {
-                                                "0": {
-                                                    "color": "#22AB94",
-                                                    "width": 1,
-                                                    "style": 0
-                                                },
-                                                "1": {
-                                                    "color": "#ACE5DC",
-                                                    "width": 1,
-                                                    "style": 0
-                                                },
-                                                "2": {
-                                                    "color": "#FCCBCD",
-                                                    "width": 1,
-                                                    "style": 0
-                                                },
-                                                "3": {
-                                                    "color": "#FF5252",
-                                                    "width": 1,
-                                                    "style": 0
-                                                }
-                                            }
+                                    "bands": [
+                                        {
+                                            "color": "#787B86",
+                                            "linestyle": 2,
+                                            "linewidth": 1,
+                                            "visible": true,
+                                            "value": 80
+                                        },
+                                        {
+                                            "color": "#787B86",
+                                            "linestyle": 2,
+                                            "linewidth": 1,
+                                            "visible": true,
+                                            "value": 20
+                                        }
+                                    ],
+                                    "filledAreasStyle": {
+                                        "fill_0": {
+                                            "color": "#2196F3",
+                                            "transparency": 90,
+                                            "visible": true
                                         }
                                     },
                                     "inputs": {
-                                        "symbol": "",
-                                        "in_0": 12,
-                                        "in_1": 26,
-                                        "in_3": "close",
-                                        "in_2": 9
+                                        "in_0": 14,
+                                        "in_1": 1,
+                                        "in_2": 3
                                     }
                                 },
                                 "_metainfoVersion": 53,
@@ -3077,51 +3563,68 @@ const layoutData = {
                                 "is_hidden_study": false,
                                 "styles": {
                                     "plot_0": {
-                                        "title": "Histogram",
+                                        "title": "%K",
                                         "histogramBase": 0,
-                                        "joinPoints": false
+                                        "joinPoints": false,
+                                        "zorder": 1.1
                                     },
                                     "plot_1": {
-                                        "title": "MACD",
+                                        "title": "%D",
                                         "histogramBase": 0,
-                                        "joinPoints": false
-                                    },
-                                    "plot_2": {
-                                        "title": "Signal",
-                                        "histogramBase": 0,
-                                        "joinPoints": false
+                                        "joinPoints": false,
+                                        "zorder": 1.11
                                     }
                                 },
-                                "description": "MACD",
-                                "shortDescription": "MACD",
+                                "description": "Stochastic",
+                                "shortDescription": "Stoch",
                                 "is_price_study": false,
-                                "id": "Moving Average Convergence/Divergence@tv-basicstudies-1",
+                                "bands": [
+                                    {
+                                        "id": "hline_0",
+                                        "name": "UpperLimit",
+                                        "zorder": -1.1
+                                    },
+                                    {
+                                        "id": "hline_1",
+                                        "name": "LowerLimit",
+                                        "zorder": -1.11
+                                    }
+                                ],
+                                "filledAreas": [
+                                    {
+                                        "id": "fill_0",
+                                        "objAId": "hline_0",
+                                        "objBId": "hline_1",
+                                        "type": "hline_hline",
+                                        "title": "Hlines Background",
+                                        "zorder": -2
+                                    }
+                                ],
+                                "id": "Stochastic@tv-basicstudies-1",
                                 "scriptIdPart": "",
-                                "name": "MACD",
+                                "name": "Stochastic",
                                 "format": {
-                                    "type": "inherit"
+                                    "precision": 2,
+                                    "type": "price"
                                 },
-                                "symbolSource": {
-                                    "type": "symbolInputSymbolSource",
-                                    "inputId": "symbol"
-                                },
-                                "description_localized": "MACD",
-                                "shortId": "Moving Average Convergence/Divergence",
+                                "usePlotsZOrder": true,
+                                "description_localized": "Stochastic",
+                                "shortId": "Stochastic",
                                 "packageId": "tv-basicstudies",
                                 "version": 1,
-                                "fullId": "Moving Average Convergence/Divergence@tv-basicstudies-1",
+                                "fullId": "Stochastic@tv-basicstudies-1",
                                 "productId": "tv-basicstudies",
                                 "_serverMetaInfoVersion": 52
                             }
                         }
                     ],
-                    "mainSourceId": "2H5TZM",
-                    "stretchFactor": 684.0058443613639,
+                    "mainSourceId": "PJLdFP",
+                    "stretchFactor": 678.8484516711251,
                     "leftAxisesState": [],
                     "rightAxisesState": [
                         {
                             "state": {
-                                "id": "eyfZJfnMVU0N",
+                                "id": "d4c0sDqvoJui",
                                 "m_priceRange": null,
                                 "m_isAutoScale": true,
                                 "m_isPercentage": false,
@@ -3139,7 +3642,8 @@ const layoutData = {
                                 "hasCalculatedPriceRange": true
                             },
                             "sources": [
-                                "2H5TZM"
+                                "PJLdFP",
+                                "xir3fQ"
                             ]
                         }
                     ],
@@ -3481,7 +3985,7 @@ const layoutData = {
                         }
                     ],
                     "mainSourceId": "k18OM3",
-                    "stretchFactor": 505.69880284183284,
+                    "stretchFactor": 707.0334354454507,
                     "leftAxisesState": [],
                     "rightAxisesState": [
                         {
@@ -3512,10 +4016,353 @@ const layoutData = {
                     "overlayPriceScales": {},
                     "priceScaleRatio": null,
                     "isCollapsed": false
+                },
+                {
+                    "sources": [
+                        {
+                            "type": "Study",
+                            "id": "2H5TZM",
+                            "state": {
+                                "inputs": {
+                                    "in_0": 12,
+                                    "in_1": 26,
+                                    "in_3": "close",
+                                    "in_2": 9,
+                                    "symbol": ""
+                                },
+                                "styles": {
+                                    "plot_0": {
+                                        "display": 15,
+                                        "linestyle": 0,
+                                        "linewidth": 1,
+                                        "plottype": 5,
+                                        "trackPrice": false,
+                                        "transparency": 0,
+                                        "color": "#ff5252",
+                                        "title": "plot_0"
+                                    },
+                                    "plot_1": {
+                                        "display": 15,
+                                        "linestyle": 0,
+                                        "linewidth": 1,
+                                        "plottype": 0,
+                                        "trackPrice": false,
+                                        "transparency": 0,
+                                        "color": "#2196f3",
+                                        "title": "plot_1"
+                                    },
+                                    "plot_2": {
+                                        "display": 15,
+                                        "linestyle": 0,
+                                        "linewidth": 1,
+                                        "plottype": 0,
+                                        "trackPrice": false,
+                                        "transparency": 0,
+                                        "color": "#ff6d00",
+                                        "title": "plot_2"
+                                    }
+                                },
+                                "bands": {},
+                                "graphics": {},
+                                "ohlcPlots": {},
+                                "palettes": {
+                                    "palette_0": {
+                                        "colors": {
+                                            "0": {
+                                                "color": "#22AB94",
+                                                "width": 1,
+                                                "style": 0
+                                            },
+                                            "1": {
+                                                "color": "#ACE5DC",
+                                                "width": 1,
+                                                "style": 0
+                                            },
+                                            "2": {
+                                                "color": "#FCCBCD",
+                                                "width": 1,
+                                                "style": 0
+                                            },
+                                            "3": {
+                                                "color": "#FF5252",
+                                                "width": 1,
+                                                "style": 0
+                                            }
+                                        }
+                                    }
+                                },
+                                "filledAreasStyle": {},
+                                "filledAreas": {},
+                                "visible": true,
+                                "showLegendValues": true,
+                                "showLabelsOnPriceScale": true,
+                                "precision": "default",
+                                "parentSources": {},
+                                "intervalsVisibilities": {
+                                    "ticks": true,
+                                    "seconds": true,
+                                    "secondsFrom": 1,
+                                    "secondsTo": 59,
+                                    "minutes": true,
+                                    "minutesFrom": 1,
+                                    "minutesTo": 59,
+                                    "hours": true,
+                                    "hoursFrom": 1,
+                                    "hoursTo": 24,
+                                    "days": true,
+                                    "daysFrom": 1,
+                                    "daysTo": 366,
+                                    "weeks": true,
+                                    "weeksFrom": 1,
+                                    "weeksTo": 52,
+                                    "months": true,
+                                    "monthsFrom": 1,
+                                    "monthsTo": 12,
+                                    "ranges": true
+                                }
+                            },
+                            "zorder": -10000,
+                            "ownFirstValue": null,
+                            "metaInfo": {
+                                "palettes": {
+                                    "palette_0": {
+                                        "colors": {
+                                            "0": {
+                                                "name": "Color 0"
+                                            },
+                                            "1": {
+                                                "name": "Color 1"
+                                            },
+                                            "2": {
+                                                "name": "Color 2"
+                                            },
+                                            "3": {
+                                                "name": "Color 3"
+                                            }
+                                        }
+                                    }
+                                },
+                                "inputs": [
+                                    {
+                                        "id": "symbol",
+                                        "name": "Other Symbol",
+                                        "defval": "",
+                                        "type": "symbol",
+                                        "optional": true,
+                                        "isHidden": false,
+                                        "display": 15
+                                    },
+                                    {
+                                        "id": "in_0",
+                                        "name": "fastLength",
+                                        "defval": 12,
+                                        "type": "integer",
+                                        "min": 1,
+                                        "max": 2000,
+                                        "display": 15
+                                    },
+                                    {
+                                        "id": "in_1",
+                                        "name": "slowLength",
+                                        "defval": 26,
+                                        "type": "integer",
+                                        "min": 1,
+                                        "max": 2000,
+                                        "display": 15
+                                    },
+                                    {
+                                        "id": "in_3",
+                                        "name": "Source",
+                                        "defval": "close",
+                                        "type": "source",
+                                        "options": [
+                                            "open",
+                                            "high",
+                                            "low",
+                                            "close",
+                                            "hl2",
+                                            "hlc3",
+                                            "ohlc4"
+                                        ],
+                                        "display": 15
+                                    },
+                                    {
+                                        "id": "in_2",
+                                        "name": "signalLength",
+                                        "defval": 9,
+                                        "type": "integer",
+                                        "min": 1,
+                                        "max": 50,
+                                        "display": 15
+                                    }
+                                ],
+                                "plots": [
+                                    {
+                                        "id": "plot_0",
+                                        "type": "line"
+                                    },
+                                    {
+                                        "id": "plot_1",
+                                        "type": "line"
+                                    },
+                                    {
+                                        "id": "plot_2",
+                                        "type": "line"
+                                    },
+                                    {
+                                        "id": "plot_3",
+                                        "palette": "palette_0",
+                                        "target": "plot_0",
+                                        "type": "colorer"
+                                    }
+                                ],
+                                "graphics": {},
+                                "defaults": {
+                                    "styles": {
+                                        "plot_0": {
+                                            "display": 15,
+                                            "linestyle": 0,
+                                            "linewidth": 1,
+                                            "plottype": 5,
+                                            "trackPrice": false,
+                                            "transparency": 0,
+                                            "color": "#FF5252"
+                                        },
+                                        "plot_1": {
+                                            "display": 15,
+                                            "linestyle": 0,
+                                            "linewidth": 1,
+                                            "plottype": 0,
+                                            "trackPrice": false,
+                                            "transparency": 0,
+                                            "color": "#2196F3"
+                                        },
+                                        "plot_2": {
+                                            "display": 15,
+                                            "linestyle": 0,
+                                            "linewidth": 1,
+                                            "plottype": 0,
+                                            "trackPrice": false,
+                                            "transparency": 0,
+                                            "color": "#FF6D00"
+                                        }
+                                    },
+                                    "palettes": {
+                                        "palette_0": {
+                                            "colors": {
+                                                "0": {
+                                                    "color": "#22AB94",
+                                                    "width": 1,
+                                                    "style": 0
+                                                },
+                                                "1": {
+                                                    "color": "#ACE5DC",
+                                                    "width": 1,
+                                                    "style": 0
+                                                },
+                                                "2": {
+                                                    "color": "#FCCBCD",
+                                                    "width": 1,
+                                                    "style": 0
+                                                },
+                                                "3": {
+                                                    "color": "#FF5252",
+                                                    "width": 1,
+                                                    "style": 0
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "inputs": {
+                                        "symbol": "",
+                                        "in_0": 12,
+                                        "in_1": 26,
+                                        "in_3": "close",
+                                        "in_2": 9
+                                    }
+                                },
+                                "_metainfoVersion": 53,
+                                "isTVScript": false,
+                                "isTVScriptStub": false,
+                                "is_hidden_study": false,
+                                "styles": {
+                                    "plot_0": {
+                                        "title": "Histogram",
+                                        "histogramBase": 0,
+                                        "joinPoints": false
+                                    },
+                                    "plot_1": {
+                                        "title": "MACD",
+                                        "histogramBase": 0,
+                                        "joinPoints": false
+                                    },
+                                    "plot_2": {
+                                        "title": "Signal",
+                                        "histogramBase": 0,
+                                        "joinPoints": false
+                                    }
+                                },
+                                "description": "MACD",
+                                "shortDescription": "MACD",
+                                "is_price_study": false,
+                                "id": "Moving Average Convergence/Divergence@tv-basicstudies-1",
+                                "scriptIdPart": "",
+                                "name": "MACD",
+                                "format": {
+                                    "type": "inherit"
+                                },
+                                "symbolSource": {
+                                    "type": "symbolInputSymbolSource",
+                                    "inputId": "symbol"
+                                },
+                                "description_localized": "MACD",
+                                "shortId": "Moving Average Convergence/Divergence",
+                                "packageId": "tv-basicstudies",
+                                "version": 1,
+                                "fullId": "Moving Average Convergence/Divergence@tv-basicstudies-1",
+                                "productId": "tv-basicstudies",
+                                "_serverMetaInfoVersion": 52
+                            }
+                        }
+                    ],
+                    "mainSourceId": "2H5TZM",
+                    "stretchFactor": 482.67121175774594,
+                    "leftAxisesState": [],
+                    "rightAxisesState": [
+                        {
+                            "state": {
+                                "id": "eyfZJfnMVU0N",
+                                "m_priceRange": {
+                                    "m_maxValue": 15.74825998084168,
+                                    "m_minValue": -6.137495283345146
+                                },
+                                "m_isAutoScale": false,
+                                "m_isPercentage": false,
+                                "m_isIndexedTo100": false,
+                                "m_isLog": false,
+                                "m_isLockScale": false,
+                                "m_isInverted": false,
+                                "m_topMargin": 0.1,
+                                "m_bottomMargin": 0.08,
+                                "alignLabels": true,
+                                "logFormula": {
+                                    "logicalOffset": 4,
+                                    "coordOffset": 0.0001
+                                },
+                                "hasCalculatedPriceRange": true
+                            },
+                            "sources": [
+                                "2H5TZM"
+                            ]
+                        }
+                    ],
+                    "overlayPriceScales": {},
+                    "priceScaleRatio": null,
+                    "isCollapsed": false
                 }
             ],
             "timeScale": {
-                "m_barSpacing": 7.1874,
+                "m_barSpacing": 7.057294649375823,
                 "m_rightOffset": 10,
                 "rightOffsetPercentage": 5,
                 "usePercentageRightOffset": false
@@ -3579,7 +4426,7 @@ const layoutData = {
                     "showSeriesLastValue": true,
                     "seriesLastValueMode": 1,
                     "showSeriesPrevCloseValue": false,
-                    "showStudyLastValue": true,
+                    "showStudyLastValue": false,
                     "showSymbolLabels": false,
                     "showStudyPlotLabels": false,
                     "showBidAskLabels": false,
